@@ -9,11 +9,11 @@ use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 --defining the entity for the gate
-entity test_two_input_and is
-end test_two_input_and;
+entity test_not is
+end test_not;
 
 --defining the architecture for the test
-architecture test_and_architecture of test_two_input_and is
+architecture test_not_architecture of test_two_input_and is
     component and_gate
         Port (a, b: in std_logic; 
                  f: out std_logic);
@@ -51,4 +51,4 @@ architecture test_and_architecture of test_two_input_and is
                                 wait for 20 ns;
                                 assert(sig_f = '1' report "ERROR at test-04" severity error);
         end process;
-end test_and_architecture;
+end test_not_architecture;
