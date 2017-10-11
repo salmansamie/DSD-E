@@ -1,5 +1,6 @@
 --------------------------------------------
 --Engineer: Nnadozie Okeke
+--Reviewed by: Salman Rahman
 --Description: nor test bench
 --Dependencies: nor_gate.vhd
 ---------------------------------------------

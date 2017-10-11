@@ -1,5 +1,6 @@
 --------------------------------------------
 --Engineer: Nnadozie Okeke
+--Reviewed by: Salman Rahman
 --Description: a four_input_nor_gate
 -- a b d e | f
 -- 0 0 0 0   1

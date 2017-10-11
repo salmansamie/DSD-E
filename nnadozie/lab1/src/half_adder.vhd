@@ -1,5 +1,6 @@
 --------------------------------------------
 --Engineer: Nnadozie Okeke
+--Reviewed by: Salman Rahman
 --Description: a half_adder
 -- a b| s c
 -- 0 0  0 0
@@ -14,10 +15,8 @@ use IEEE.std_logic_1164.all;
 
 -- declare entity to describe the external interface for half_adder
 entity half_adder is
-  Port (  a : in std_logic; --a is an input port of type std_logic
-          b : in std_logic;
-          s : out std_logic;
-          c : out std_logic); --c is an output port of type std_logic
+  Port (  a, b : in std_logic; --a is an input port of type std_logic
+          s, c : out std_logic); --c is an output port of type std_logic
 end half_adder;
 
 -- in our architecture we define the internal functionality of our half_adder

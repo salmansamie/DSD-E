@@ -1,12 +1,14 @@
 -- Engineer: Loui Rajabi
 -- half adder
 
-library ieee;
-use ieee.std_logic_1164.all
 
--- and Gate
+-- AND gate
+
+library ieee;
+use ieee.std_logic_1164.all;
+
 entity andGate2 is port(
-   A : in std_logic ;
+   A : in std_logic;
    B : in std_logic;
    F : out std_logic
    );
@@ -17,13 +19,15 @@ begin
    F <= A and B;
 end func;
 
---	XOR gate
+-- XOR gate
+
+library ieee;
+use ieee.std_logic_1164.all;
 
 entity xorGate2 is port(
    A : in std_logic;
    B : in std_logic;
-   F : out std_logic
-   );
+   F : out std_logic);
 end xorGate2;
 
 architecture func of xorGate2 is
@@ -32,6 +36,9 @@ begin
 end func;
 
 -- half adder
+
+library ieee;
+use ieee.std_logic_1164.all;
 
 entity halfAdder is port(
    A : in std_logic;
@@ -43,22 +50,21 @@ end halfAdder;
 
 architecture halfAdder of halfAdder is
 
-   component andGate is -- and Gate
-      port(
+   component andGate2 is port(
       A : in std_logic;
       B : in std_logic;
       F : out std_logic
       );
    end component;
 
-   component xorGate is -- XOR Gate
-     port(
-     A : in std_logic;
-     B : in std_logic;
-     F : out std_logic);
+   component xorGate2 is port(
+   A  : in std_logic;
+   B : in std_logic;
+   F : out std_logic
+   );
    end component;
 
 begin
-  G1 : xorGate port map(A, B, sum);
-  G2 : andGate port map(A, B, Cout);
+  G1 : xorGate2 port map(A, B, sum);
+  G2 : andGate2 port map(A, B, Cout);
 end halfAdder;

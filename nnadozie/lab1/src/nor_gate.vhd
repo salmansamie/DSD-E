@@ -1,5 +1,6 @@
 --------------------------------------------
 --Engineer: Nnadozie Okeke
+--Reviewed by: Salman Rahman
 --Description: a NOR gate
 -- b a| f
 -- 0 0  1

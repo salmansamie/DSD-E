@@ -2,11 +2,10 @@
 -- full adder
 
 library ieee;
-use ieee.std_logic_1164.all
+use ieee.std_logic_1164.all;
 
---  AND gate
-
-entity andGate2 is port(
+entity andGate2 is
+   port(
    A : in std_logic;
    B : in std_logic;
    F : out std_logic
@@ -20,7 +19,11 @@ end func;
 
 -- XOR gate
 
-entity xorGate2 is  port(
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity xorGate2 is
+   port(
    A : in std_logic;
    B : in std_logic;
    F : out std_logic
@@ -32,26 +35,29 @@ begin
    F <= A xor B;
 end func;
 
---  half adder
+library ieee;
+use ieee.std_logic_1164.all;
 
 entity halfAdder is port(
    A : in std_logic;
    B : in std_logic;
-   sum : out std_logic;
+   sum  : out std_logic;
    Cout : out std_logic
    );
 end halfAdder;
 
 architecture halfAdder of halfAdder is
 
-   component andGate2 is port(
+   component andGate2 is -- AND Gate
+      port(
       A : in std_logic;
       B : in std_logic;
       F : out std_logic
       );
    end component;
 
-   component xorGate2 is port(
+   component xorGate2 is -- XOR Gate
+      port(
       A : in std_logic;
       B : in std_logic;
       F : out std_logic
@@ -59,14 +65,15 @@ architecture halfAdder of halfAdder is
    end component;
 
 begin
-   G1 : xorGate port map(A, B, sum);
-   G2 : andGate port map(A, B, Cout);
+   G1 : xorGate2 port map(A, B, sum);
+   G2 : andGate2 port map(A, B, Cout);
 end halfAdder;
 
+library ieee;
+use ieee.std_logic_1164.all;
 
--- OR gate
-
-entity orGate2 is port(
+entity orGate2 is
+   port(
    A : in std_logic;
    B : in std_logic;
    F : out std_logic
@@ -78,16 +85,19 @@ begin
    F <= A or B;
 end func;
 
---  Full Adder
+
+-- Full Adder
+library ieee;
+use ieee.std_logic_1164.all;
 
 entity fullAdder is
    port(
    A : in std_logic;
    B : in std_logic;
    Cin : in std_logic;
-   sum : out std_logic;
+   sum  : out std_logic;
    Cout : out std_logic
-   );
+    );
 end fullAdder;
 
 architecture fullAdder of fullAdder is
@@ -103,7 +113,7 @@ architecture fullAdder of fullAdder is
 
    component orGate2 is
       port(
-      A  : in std_logic;
+      A : in std_logic;
       B : in std_logic;
       F : out std_logic
       );
@@ -114,5 +124,5 @@ architecture fullAdder of fullAdder is
 begin
    G1: halfAdder port map(A, B, halfTohalf, halfToOr1);
    G2: halfAdder port map(halfTohalf, Cin, sum, halfToOr2);
-   G3: orGate port map(halfToOr1, halfToOr2, Cout);
+   G3: orGate2 port map(halfToOr1, halfToOr2, Cout);
 end fullAdder;
