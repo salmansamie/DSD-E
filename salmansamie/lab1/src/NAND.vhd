@@ -5,9 +5,6 @@
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.STD_LOGIC_ARITH.ALL;
-use IEEE.STD_LOGIC_UNSIGNED.ALL;
-
 
 --declaring nand gate entity
 entity nand_gate is

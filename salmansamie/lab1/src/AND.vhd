@@ -5,9 +5,6 @@
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.STD_LOGIC_ARITH.ALL;
-use IEEE.STD_LOGIC_UNSIGNED.ALL;
-
 
 --and gate definition:
 entity and_gate is
