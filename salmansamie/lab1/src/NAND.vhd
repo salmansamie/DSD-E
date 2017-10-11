@@ -8,7 +8,7 @@ use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 
---nand gate definition
+--declaring nand gate entity
 entity nand_gate is
 	Port (a: in std_logic; 
 	      b: in std_logic; 
