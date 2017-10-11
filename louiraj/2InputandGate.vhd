@@ -9,5 +9,5 @@ Y : out std_logic
 end andgate2;
 architecture function of andgate2 is
 begin
-Y= A and B ;
+Y= A and B after ns 5;
 end function;

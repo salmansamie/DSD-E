@@ -9,5 +9,5 @@ end nandGate2;
 
 architecture function of nandGate2 is
 begin
-f<= x nand y;
+f<= x nand y after ns 5;
 end function;

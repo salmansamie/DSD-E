@@ -10,5 +10,5 @@ Y : out std_logic
 end orgate2;
 architecture function of orgate2 is
 begin
-Y= A or B ;
+Y= A or B after ns 5;
 end function;

@@ -12,5 +12,5 @@ end orgate3
 
 architecture function of orgate3 is
 begin
-Y <= (A or B) or C;
+Y <= (A or B) or C after ns 5;
 end function;

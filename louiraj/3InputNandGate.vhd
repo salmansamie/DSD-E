@@ -11,5 +11,5 @@ end nandGate3;
 architecture function of nandGate3 is
 
 begin
-f <= (x nand y) nand z;
+f <= (x nand y) nand z after ns 5;
 end function;
