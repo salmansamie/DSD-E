@@ -1,5 +1,6 @@
 --------------------------------------------
 --Engineer: Nnadozie Okeke
+--Reviewed by: Salman Rahman
 --Description: two_input_multiplexer test bench
 --Dependencies: two_input_multiplexer.vhd
 ---------------------------------------------

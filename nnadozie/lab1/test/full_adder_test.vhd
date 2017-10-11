@@ -1,5 +1,6 @@
 --------------------------------------------
 --Engineer: Nnadozie Okeke
+--Reviewed by: Salman Rahman
 --Description: full_adder test bench
 --Dependencies: full_adder.vhd
 ---------------------------------------------
