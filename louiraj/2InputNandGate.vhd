@@ -1,6 +1,9 @@
 -- Engineer: Loui Rajabi
 -- 2input nand Gate
 
+library ieee;
+use ieee.std_logic_1164.all
+
 entity nandGate2 is port(
 x: in std_logic;
 y: in std_logic;

@@ -4,8 +4,7 @@
 
 -- AND gate
 
-entity andGate2 is
-   port(
+entity andGate2 is port(
    A : in std_logic;
    B : in std_logic;
    F : out std_logic
@@ -34,8 +33,7 @@ end func;
 
 -- NOT gate
 
-entity notGate2 is
-   port(
+entity notGate2 is port(
    inPort : in std_logic;
    outPort : out std_logic
    );

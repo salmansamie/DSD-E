@@ -1,10 +1,12 @@
 -- Engineer: Loui Rajabi
 -- full adder
 
+library ieee;
+use ieee.std_logic_1164.all
+
 --  AND gate
 
-entity andGate2 is
-   port(
+entity andGate2 is port(
    A : in std_logic;
    B : in std_logic;
    F : out std_logic
@@ -18,8 +20,7 @@ end func;
 
 -- XOR gate
 
-entity xorGate2 is
-   port(
+entity xorGate2 is  port(
    A : in std_logic;
    B : in std_logic;
    F : out std_logic
@@ -33,8 +34,7 @@ end func;
 
 --  half adder
 
-entity halfAdder is
-   port(
+entity halfAdder is port(
    A : in std_logic;
    B : in std_logic;
    sum : out std_logic;
@@ -44,16 +44,14 @@ end halfAdder;
 
 architecture halfAdder of halfAdder is
 
-   component andGate2 is
-      port(
+   component andGate2 is port(
       A : in std_logic;
       B : in std_logic;
       F : out std_logic
       );
    end component;
 
-   component xorGate2 is
-      port(
+   component xorGate2 is port(
       A : in std_logic;
       B : in std_logic;
       F : out std_logic
@@ -68,8 +66,7 @@ end halfAdder;
 
 -- OR gate
 
-entity orGate2 is
-   port(
+entity orGate2 is port(
    A : in std_logic;
    B : in std_logic;
    F : out std_logic
