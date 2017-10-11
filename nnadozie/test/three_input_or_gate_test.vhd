@@ -34,7 +34,7 @@ architecture three_input_or_gate_test_arch of three_input_or_gate_test_bench is
               sig_b <= '0';
               sig_d <= '0';
             wait for 100ns;
-              assert(sig_f='0') report "Fail 0/0/0" severity error; --check output is 0, if not report a Fail for input sig_a=0, sig_b=0, sig_b=0
+              assert(sig_f='0') report "Fail 0/0/0" severity error; --check output is 0, if not report a Fail for input sig_a=0, sig_b=0, sig_d=0
               sig_d <= '1';
             wait for 100ns;
               assert(sig_f='1') report "Fail 0/0/1" severity error;
@@ -59,7 +59,7 @@ architecture three_input_or_gate_test_arch of three_input_or_gate_test_bench is
               assert(sig_f='1') report "Fail 1/1/0" severity error;
               sig_d <= '1';
             wait for 100ns;
-              assert(sig_f='1') report "Fail 1/0/0" severity error;
+              assert(sig_f='1') report "Fail 1/1/1" severity error;
             wait; --end of test: wait forever...
           end process;
 end three_input_or_gate_test_arch;
