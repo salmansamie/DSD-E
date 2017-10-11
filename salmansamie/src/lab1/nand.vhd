@@ -2,6 +2,11 @@
 --Engineer: Salman Rahman
 --Email: salman.rahman@se14.qmul.ac.uk
 
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
 
 --nand gate definition
 entity nand_gate is
