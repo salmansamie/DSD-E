@@ -1,7 +1,7 @@
 --------------------------------------------
 --Engineer: Nnadozie Okeke
---Description: nand_gate test bench
---Dependencies: nand_gate.vhd
+--Reviewed by: Salman Rahman
+--Description: nand_gat
 ---------------------------------------------
 
 -- import std_logic libraries to use std_logic type

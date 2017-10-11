@@ -1,5 +1,6 @@
 --------------------------------------------
 --Engineer: Nnadozie Okeke
+--Reviewed by: Salman Rahman
 --Description: half_adder test bench
 --Dependencies: half_adder.vhd
 ---------------------------------------------

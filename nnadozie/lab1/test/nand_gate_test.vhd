@@ -1,5 +1,6 @@
 --------------------------------------------
 --Engineer: Nnadozie Okeke
+--Reviewed by: Salman Rahman
 --Description: nand_gate test bench
 --Dependencies: nand_gate.vhd
 ---------------------------------------------
