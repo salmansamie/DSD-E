@@ -1,5 +1,5 @@
 -- Engineer: Loui Rajabi
--- 2 input Multiplexer 
+-- 2 input Multiplexer
 
 
 -- AND gate
@@ -89,5 +89,5 @@ begin
    G1: notGate  port map(S, invOut);
    G2: andGate  port map(invOut, D0, andOut1);
    G3: andGate  port map(S, D1, andOut2);
-   G4: orGate   port map(andOut1, andOut2, F); -- F
+   G4: orGate   port map(andOut1, andOut2, F);
 end Function;
