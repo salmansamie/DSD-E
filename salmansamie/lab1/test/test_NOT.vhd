@@ -33,7 +33,7 @@ architecture test_not_architecture of test_not is
                                 assert(sig_f = '1') report "ERROR at test-01" severity error;
 
                                 --test-02
-                                a <='1';
+                                sig_a <='1';
                                 wait for 20 ns;
                                 assert(sig_f = '0') report "ERROR at test-02" severity error;
         end process;
