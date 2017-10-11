@@ -2,7 +2,9 @@
 --Engineer: Salman Rahman
 --Student ID: 140777039
 --Email: salman.rahman@se14.qmul.ac.uk
+--Reviewed by Okeke NNadozie
 
+--importing the necessary librabries
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
