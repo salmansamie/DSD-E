@@ -8,47 +8,33 @@ use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
---defining the entity for the gate
+--defining the entity for NOT gate
 entity test_not is
 end test_not;
 
---defining the architecture for the test
-architecture test_not_architecture of test_two_input_and is
-    component and_gate
-        Port (a, b: in std_logic; 
-                 f: out std_logic);
+--defining the architecture for NOT test
+architecture test_not_architecture of test_not is
+    component not_gate
+        Port (a: in std_logic; 
+              f: out std_logic);
     end component;
 
     --defining the signal for test device
-    signal sig_a, sig_b, sig_f : std_logic;
+    signal sig_a, sig_f : std_logic;
 
-    -- Instantiate the Unit Under Test (UUT) for the component and_gate
+    -- Instantiate the Unit Under Test (UUT) for the component not_gate
     begin
-        uut: and_gate port map(sig_a, sig_b, sig_f);
+        uut: not_gate port map(sig_a, sig_f);
         main_tester: process
                             begin
                                 --test-01
                                 sig_a <= '0';
-                                sig_b <= '0';
                                 wait for 20 ns;
-                                assert(sig_f = '0') report "ERROR at test-01" severity error;
+                                assert(sig_f = '1') report "ERROR at test-01" severity error;
 
                                 --test-02
-                                a <='0';
-                                b <='1';
+                                a <='1';
                                 wait for 20 ns;
                                 assert(sig_f = '0') report "ERROR at test-02" severity error;
-
-                                --test-03
-                                a <='1';
-                                b <='0';
-                                wait for 20 ns;
-                                assert(sig_f = '0') report "ERROR at test-03" severity error;
-
-                                --test-04
-                                a <= '1';
-                                b <= '1';
-                                wait for 20 ns;
-                                assert(sig_f = '1' report "ERROR at test-04" severity error);
         end process;
 end test_not_architecture;

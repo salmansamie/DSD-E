@@ -34,20 +34,20 @@ architecture test_and_architecture of test_two_input_and is
                                 assert(sig_f = '0') report "ERROR at test-01" severity error;
 
                                 --test-02
-                                a <='0';
-                                b <='1';
+                                sig_a <='0';
+                                sig_b <='1';
                                 wait for 20 ns;
                                 assert(sig_f = '0') report "ERROR at test-02" severity error;
 
                                 --test-03
-                                a <='1';
-                                b <='0';
+                                sig_a <='1';
+                                sig_b <='0';
                                 wait for 20 ns;
                                 assert(sig_f = '0') report "ERROR at test-03" severity error;
 
                                 --test-04
-                                a <= '1';
-                                b <= '1';
+                                sig_a <= '1';
+                                sig_b <= '1';
                                 wait for 20 ns;
                                 assert(sig_f = '1' report "ERROR at test-04" severity error);
         end process;
