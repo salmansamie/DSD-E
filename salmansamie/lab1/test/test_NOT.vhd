@@ -9,8 +9,8 @@ use IEEE.STD_LOGIC_ARITH.ALL;
 use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
 --defining the entity for the gate
-entity test_two_input_and is
-end test_two_input_and;
+entity test_not is
+end test_not;
 
 --defining the architecture for the test
 architecture test_not_architecture of test_two_input_and is
