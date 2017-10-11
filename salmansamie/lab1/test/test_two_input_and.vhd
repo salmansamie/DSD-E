@@ -13,7 +13,7 @@ entity test_two_input_and is
 end test_two_input_and;
 
 --defining the architecture for the test
-architecture test_not_architecture of test_two_input_and is
+architecture test_and_architecture of test_two_input_and is
     component and_gate
         Port (a, b: in std_logic; 
                  f: out std_logic);
@@ -51,4 +51,4 @@ architecture test_not_architecture of test_two_input_and is
                                 wait for 20 ns;
                                 assert(sig_f = '1' report "ERROR at test-04" severity error);
         end process;
-end test_not_architecture;
+end test_and_architecture;
