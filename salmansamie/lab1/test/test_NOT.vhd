@@ -29,12 +29,12 @@ architecture test_not_architecture of test_not is
                             begin
                                 --test-01
                                 sig_a <= '0';
-                                wait for 20 ns;
+                                wait for 100 ns;
                                 assert(sig_f = '1') report "ERROR at test-01" severity error;
 
                                 --test-02
                                 sig_a <='1';
-                                wait for 20 ns;
+                                wait for 100 ns;
                                 assert(sig_f = '0') report "ERROR at test-02" severity error;
         end process;
 end test_not_architecture;
