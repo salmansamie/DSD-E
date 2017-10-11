@@ -11,10 +11,10 @@ entity andGate2 is
    );
 end andGate2;
 
-architecture function of andGate2 is
+architecture func of andGate2 is
 begin
    F <= A and B;
-end function;
+end func;
 
 -- XOR gate
 
@@ -26,10 +26,10 @@ entity xorGate2 is
     );
 end xorGate2;
 
-architecture function of xorGate2 is
+architecture func of xorGate2 is
 begin
    F <= A xor B;
-end function;
+end func;
 
 --  half adder
 
@@ -76,10 +76,10 @@ entity orGate2 is
    );
 end orGate2;
 
-architecture function of orGate2 is
+architecture func of orGate2 is
 begin
    F <= A or B;
-end function;
+end func;
 
 --  Full Adder
 
@@ -104,7 +104,7 @@ architecture fullAdder of fullAdder is
       );
    end component;
 
-   component orGate2 is 
+   component orGate2 is
       port(
       A  : in std_logic;
       B : in std_logic;

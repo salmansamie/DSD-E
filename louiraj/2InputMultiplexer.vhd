@@ -12,10 +12,10 @@ entity andGate2 is
    );
 end andGate2;
 
-architecture function of andGate2 is
+architecture func of andGate2 is
 begin
    F <= A and B;
-end function;
+end func;
 
 --	OR gate
 
@@ -27,10 +27,10 @@ entity orGate2 is
    );
 end orGate2;
 
-architecture function of orGate2 is
+architecture func of orGate2 is
 begin
    F <= A or B;
-end function;
+end func;
 
 -- NOT gate
 
@@ -41,10 +41,10 @@ entity notGate2 is
    );
 end notGate2;
 
-architecture function of notGate2 is
+architecture func of notGate2 is
 begin
   outPort <= not inPort;
-end function;
+end func;
 
 
 --	2 input Multiplexer
@@ -57,7 +57,7 @@ entity inputMux2 is
    F : out std_logic);
 end inputMux2;
 --
-architecture Function of inputMux2 is
+architecture func of inputMux2 is
 
    component andGate is
       port(
@@ -90,4 +90,4 @@ begin
    G2: andGate  port map(invOut, D0, andOut1);
    G3: andGate  port map(S, D1, andOut2);
    G4: orGate   port map(andOut1, andOut2, F);
-end Function;
+end func;

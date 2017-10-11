@@ -8,7 +8,7 @@ B : in std_logic;
 Y : out std_logic
 );
 end orgate2;
-architecture function of orgate2 is
+architecture func of orgate2 is
 begin
 Y= A or B after ns 5;
-end function;
+end func;

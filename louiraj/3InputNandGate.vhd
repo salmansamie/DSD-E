@@ -8,8 +8,8 @@ z: in std_logic;
 f: out std_logic);
 end nandGate3;
 
-architecture function of nandGate3 is
+architecture func of nandGate3 is
 
 begin
 f <= (x nand y) nand z after ns 5;
-end function;
+end func;

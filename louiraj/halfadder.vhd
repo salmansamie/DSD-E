@@ -10,10 +10,10 @@ entity andGate2 is
    );
 end andGate2;
 
-architecture function of andGate2 is
+architecture func of andGate2 is
 begin
    F <= A and B;
-end function;
+end func;
 
 --	XOR gate
 
@@ -25,10 +25,10 @@ entity xorGate2 is
    );
 end xorGate2;
 
-architecture function of xorGate2 is
+architecture func of xorGate2 is
 begin
    F <= A xor B;
-end function;
+end func;
 
 -- half adder
 

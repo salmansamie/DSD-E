@@ -8,7 +8,7 @@ B : in std_logic;
 Y : out std_logic
 );
 end norgate2;
-architecture function of norgate2 is
+architecture func of norgate2 is
 begin
 Y= A nor B after ns 5;
-end function;
+end func;

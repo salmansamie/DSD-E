@@ -7,7 +7,7 @@ y: in std_logic;
 f: out std_logic);
 end nandGate2;
 
-architecture function of nandGate2 is
+architecture func of nandGate2 is
 begin
 f<= x nand y after ns 5;
-end function;
+end func;

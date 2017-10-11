@@ -10,7 +10,7 @@ Y : out std_logic
 );
 end orgate3
 
-architecture function of orgate3 is
+architecture func of orgate3 is
 begin
 Y <= (A or B) or C after ns 5;
-end function;
+end func;

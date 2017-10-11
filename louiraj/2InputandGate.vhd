@@ -1,13 +1,16 @@
 -- Engineer: Loui Rajabi
 -- 2input and Gate
 
-entity andgate2 is Port(
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity andGate2 is Port(
 A : in std_logic;
 B : in std_logic;
 Y : out std_logic
 );
-end andgate2;
-architecture function of andgate2 is
+end andGate2;
+architecture func of andGate2 is
 begin
-Y= A and B after ns 5;
-end function;
+  F <= A and B;
+end func;
