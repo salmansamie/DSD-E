@@ -1,7 +1,6 @@
 --------------------------------------------
 --Engineer: Nnadozie Okeke
 --Description: not_gate
---Dependencies: not_gate.vhd
 ---------------------------------------------
 
 -- import std_logic libraries to use std_logic type
