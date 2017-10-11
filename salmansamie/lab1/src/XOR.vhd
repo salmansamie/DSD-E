@@ -1,9 +1,14 @@
 
 --Engineer: Salman Rahman
-
+--Student ID: 140777039
 --Email: salman.rahman@se14.qmul.ac.uk
 
---xor gate definition:
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_UNSIGNED.ALL;
+
+--xor gate entity definition:
 entity xor_gate is
 	Port (a, b: in std_logic; 
 		  f: out std_logic);
