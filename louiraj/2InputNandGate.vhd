@@ -2,15 +2,17 @@
 -- 2input nand Gate
 
 library ieee;
-use ieee.std_logic_1164.all
+use ieee.std_logic_1164.all;
 
-entity nandGate2 is port(
-x: in std_logic;
-y: in std_logic;
-f: out std_logic);
+entity nandGate2 is
+   port(
+   A  : in std_logic;
+   B : in std_logic;
+   F : out std_logic
+   );
 end nandGate2;
 
 architecture func of nandGate2 is
 begin
-f<= x nand y after ns 5;
+   F <= A nand B;
 end func;
