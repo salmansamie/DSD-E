@@ -2,21 +2,20 @@
 --Engineer: Salman Rahman
 --Student ID: 140777039
 --Email: salman.rahman@se14.qmul.ac.uk
+--Reviewed by Okeke NNadozie
 
+--importing the necessary librarys
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.STD_LOGIC_ARITH.ALL;
-use IEEE.STD_LOGIC_UNSIGNED.ALL;
 
-
---declaring nand gate entity
+--NOT gate entity definition: Here, we define the variables to the ports of the standard logic gate.
 entity nand_gate is
 	Port (a: in std_logic; 
 	      b: in std_logic; 
 		  f: out std_logic);
 end nand_gate;
 
---nand gate architecture
+--NAND gate architecture definition: Here we create the actual architecture of the said gate.
 architecture nand_architecture of nand_gate is
 begin
 process(a, b)

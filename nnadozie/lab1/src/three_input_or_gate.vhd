@@ -1,5 +1,6 @@
 --------------------------------------------
 --Engineer: Nnadozie Okeke
+--Reviewed by: Salman Rahman
 --Description: three_input_or_gate
 -- a b d | f
 -- 0 0 0  0

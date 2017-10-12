@@ -1,5 +1,6 @@
 --------------------------------------------
 --Engineer: Nnadozie Okeke
+--Reviewed by: Salman Rahman
 --Description: a full_adder
 -- a    b c_in | sum c_out
 -- 0    0  0     0    0

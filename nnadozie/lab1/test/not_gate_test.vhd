@@ -1,5 +1,6 @@
 --------------------------------------------
 --Engineer: Nnadozie Okeke
+--Reviewed by: Salman Rahman
 --Description: not_gate test bench
 --Dependencies: not_gate.vhd
 ---------------------------------------------

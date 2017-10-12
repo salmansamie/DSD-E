@@ -1,5 +1,6 @@
 --------------------------------------------
 --Engineer: Nnadozie Okeke
+--Reviewed by: Salman Rahman
 --Description: four_input_nor_gate test bench
 --Dependencies: four_input_nor_gate.vhd
 ---------------------------------------------
