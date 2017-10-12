@@ -64,7 +64,17 @@ begin
         errCnt := errCnt + 1;
      end if;
 
--- resukts
+        --test 4
+   A <= '0';
+     B <= '0';
+     wait for 10 ns;
+     assert(sum = '0') report "sum error 4" severity error;
+     assert(Cout = '0') report "Cout error 4" severity error;
+     if(sum /= '1' or Cout /= '0') then
+        errCnt := errCnt + 1;
+     end if;
+
+-- results
 	if(errCnt = 0) then
         assert false report "Success!" severity note;
      else

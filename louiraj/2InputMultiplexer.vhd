@@ -63,7 +63,7 @@ entity inputMux2 is
     F : out std_logic
     );
 end inputMux2;
---
+
 architecture Func of inputMux2 is
 
    component andGate2 is
