@@ -6,9 +6,9 @@
 --------------------------------------------------------------------------------
 
 library IEEE;  
-use IEEE.STD_LOGIC_1164.ALL;  
-use IEEE.STD_LOGIC_ARITH.ALL;  
-use IEEE.STD_LOGIC_UNSIGNED.ALL;  
+use IEEE.STD_LOGIC_1164.all;  
+use IEEE.STD_LOGIC_ARITH.all;  
+use IEEE.STD_LOGIC_UNSIGNED.all;  
 
 entity nbit_adder is  
 generic(n:positive:=4);  
