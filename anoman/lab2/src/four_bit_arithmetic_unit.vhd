@@ -5,7 +5,7 @@
 
 --------------------------------------------------------------------------------
 library IEEE;  
-use IEEE.STD_LOGIC_1164.ALL;  
+use IEEE.STD_LOGIC_1164.all;  
 
 entity four_bit_arithmetic_unit is  
 	Port ( InA : in STD_LOGIC_VECTOR (3 downto 0);  
