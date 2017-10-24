@@ -6,18 +6,18 @@
 --------------------------------------------------------------------------------
 
 library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-use IEEE.STD_LOGIC_ARITH.ALL;
-use IEEE.STD_LOGIC_UNSIGNED.ALL;
+use IEEE.STD_LOGIC_1164.all;
+use IEEE.STD_LOGIC_ARITH.all;
+use IEEE.STD_LOGIC_UNSIGNED.all;
 
-entity four_bit_LAC_adder is
-    Port ( InA : in std_logic_vector(3 downto 0);
+entity port is
+    port ( InA : in std_logic_vector(3 downto 0);
 		InB : in std_logic_vector(3 downto 0);
         C_In : in std_logic;
         C_terms : out std_logic_vector(3 downto 0));
-end four_bit_LAC_adder;
+end port;
 
-architecture Behavioral of four_bit_LAC_adder is
+architecture Behavioral of port is
 signal G, P : std_logic_vector (3 downto 0);
 begin
 	G <= InA and InB after 7 ns;
