@@ -6,7 +6,7 @@
 --------------------------------------------------------------------------------
 
 library IEEE;  
-use IEEE.STD_LOGIC_1164.ALL;  
+use IEEE.STD_LOGIC_1164.all;  
 
 entity bit_slice_logic_slice is  
 	Port ( a : in STD_LOGIC;  
