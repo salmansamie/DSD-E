@@ -6,7 +6,7 @@
 --------------------------------------------------------------------------------
 
 library IEEE;  
-use IEEE.STD_LOGIC_1164.ALL;  
+use IEEE.STD_LOGIC_1164.all;  
 
 entity shift_control_logic is  
 	Port ( input : in STD_LOGIC_VECTOR (2 downto 0);  
