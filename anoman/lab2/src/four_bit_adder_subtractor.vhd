@@ -6,7 +6,7 @@
 --------------------------------------------------------------------------------
 
 library IEEE;  
-use IEEE.STD_LOGIC_1164.ALL;  
+use IEEE.STD_LOGIC_1164.all;  
 
 entity four_bit_adder_substractor is  
 generic(n:positive:=4);  
