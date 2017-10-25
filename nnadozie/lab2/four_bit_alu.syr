@@ -1,0 +1,171 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.10 secs
+ 
+--> Reading design: four_bit_alu.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "four_bit_alu.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "four_bit_alu"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-ft256
+
+---- Source Options
+Top Module Name                    : four_bit_alu
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/neo30/Desktop/lab1-submission/labe/src/half_adder.vhd" in Library work.
+Entity <half_adder> compiled.
+Entity <half_adder> (Architecture <low_level_half_adder>) compiled.
+Compiling vhdl file "C:/Users/neo30/Desktop/lab1-submission/labe/src/OR.vhd" in Library work.
+Entity <or_gate> compiled.
+Entity <or_gate> (Architecture <and_architecture>) compiled.
+Compiling vhdl file "C:/Users/neo30/Desktop/lab1-submission/labe/src/full_adder.vhd" in Library work.
+Entity <full_adder> compiled.
+Entity <full_adder> (Architecture <multi_component_full_adder>) compiled.
+Compiling vhdl file "C:/Users/neo30/Desktop/lab1-submission/labe/src/lab2src/four_bit_LAC.vhd" in Library work.
+Entity <four_bit_LAC> compiled.
+Entity <four_bit_LAC> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/neo30/Desktop/lab1-submission/labe/src/lab2src/n_bit_adder.vhd" in Library work.
+Entity <n_bit_adder> compiled.
+Entity <n_bit_adder> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/neo30/Desktop/lab1-submission/labe/src/lab2src/two_input_xor.vhd" in Library work.
+Entity <two_input_xor> compiled.
+Entity <two_input_xor> (Architecture <my_architecture>) compiled.
+Compiling vhdl file "C:/Users/neo30/Desktop/lab1-submission/labe/src/NOT.vhd" in Library work.
+Entity <not_gate> compiled.
+Entity <not_gate> (Architecture <not_architecture>) compiled.
+Compiling vhdl file "C:/Users/neo30/Desktop/lab1-submission/labe/src/AND.vhd" in Library work.
+Entity <and_gate> compiled.
+Entity <and_gate> (Architecture <and_architecture>) compiled.
+Compiling vhdl file "C:/Users/neo30/Desktop/lab1-submission/labe/src/lab2src/one_input_not.vhd" in Library work.
+Entity <one_input_not> compiled.
+Entity <one_input_not> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/neo30/Desktop/lab1-submission/labe/src/lab2src/two_input_and.vhd" in Library work.
+Entity <two_input_and> compiled.
+Entity <two_input_and> (Architecture <my_architecture>) compiled.
+Compiling vhdl file "C:/Users/neo30/Desktop/lab1-submission/labe/src/lab2src/two_input_or.vhd" in Library work.
+Entity <two_input_or> compiled.
+Entity <two_input_or> (Architecture <my_architecture>) compiled.
+Compiling vhdl file "C:/Users/neo30/Desktop/lab1-submission/labe/src/lab2src/four_input_multiplexer.vhd" in Library work.
+Entity <four_input_multiplexer> compiled.
+Entity <four_input_multiplexer> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/neo30/Desktop/lab1-submission/labe/src/lab2src/four_bit_xor_control.vhd" in Library work.
+Entity <four_bit_xor_control> compiled.
+Entity <four_bit_xor_control> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/neo30/Desktop/lab1-submission/labe/src/lab2src/four_bit_LAC_adder.vhd" in Library work.
+Entity <four_bit_LAC_adder> compiled.
+Entity <four_bit_LAC_adder> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/neo30/Desktop/lab1-submission/labe/src/two_input_multiplexer.vhd" in Library work.
+Entity <two_input_multiplexer> compiled.
+Entity <two_input_multiplexer> (Architecture <multi_component_two_input_multiplexer_arch>) compiled.
+Compiling vhdl file "C:/Users/neo30/Desktop/lab1-submission/labe/src/lab2src/logic_bit_slice.vhd" in Library work.
+Entity <logic_bit_slice> compiled.
+Entity <logic_bit_slice> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "C:/Users/neo30/Desktop/lab1-submission/labe/src/lab2src/n_bit_two_input_mux.vhd" in Library work.
+Entity <n_bit_two_input_mux> compiled.
+ERROR:HDLParsers:3312 - "C:/Users/neo30/Desktop/lab1-submission/labe/src/lab2src/n_bit_two_input_mux.vhd" Line 30. Undefined symbol 'I0'.
+ERROR:HDLParsers:1209 - "C:/Users/neo30/Desktop/lab1-submission/labe/src/lab2src/n_bit_two_input_mux.vhd" Line 30. I0: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3312 - "C:/Users/neo30/Desktop/lab1-submission/labe/src/lab2src/n_bit_two_input_mux.vhd" Line 30. Undefined symbol 'I1'.
+ERROR:HDLParsers:1209 - "C:/Users/neo30/Desktop/lab1-submission/labe/src/lab2src/n_bit_two_input_mux.vhd" Line 30. I1: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3313 - "C:/Users/neo30/Desktop/lab1-submission/labe/src/lab2src/n_bit_two_input_mux.vhd" Line 30. Undefined symbol 'f'.  Should it be: ff?
+ERROR:HDLParsers:1209 - "C:/Users/neo30/Desktop/lab1-submission/labe/src/lab2src/n_bit_two_input_mux.vhd" Line 30. f: Undefined symbol (last report in this block)
+ERROR:HDLParsers:3324 - "C:/Users/neo30/Desktop/lab1-submission/labe/src/lab2src/n_bit_two_input_mux.vhd" Line 30. IN mode Formal b of two_input_multiplexer with no default value must be associated with an actual value.
+--> 
+
+Total memory usage is 288996 kilobytes
+
+Number of errors   :    7 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

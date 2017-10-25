@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/neo30/Desktop/lab1-submission/labe/four_bit_alu.xst" -ofn "C:/Users/neo30/Desktop/lab1-submission/labe/four_bit_alu.syr" 
