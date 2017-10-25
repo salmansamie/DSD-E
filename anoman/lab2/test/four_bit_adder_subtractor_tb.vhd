@@ -25,8 +25,7 @@ signal InB : std_logic_vector(3 downto 0) := (others => '0');
 signal control : std_logic := '0';    
 signal sum : std_logic_vector(3 downto 0);  
 signal cout : std_logic;  
- 
-constant <clock>_period : time := 10 ns;  
+  
 begin  
 	uut: four_bit_adder_subtractor port map (  
 	InA => InA,  
