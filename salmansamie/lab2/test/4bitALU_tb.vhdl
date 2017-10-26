@@ -2,7 +2,7 @@
 --Email: salman.rahman@se14.qmul.ac.uk
 
 -- *** Comments on how this test bench works *** --            
- -- function table for the ALU with example inputs and expected outputs:  
+-- function table for the ALU with example inputs and expected outputs:  
            -- Function  F  InA  InB : Output C_out  
            ------------------------------:------------------  
            --     NOT A        000      0101      XXXX :      1010   X  
