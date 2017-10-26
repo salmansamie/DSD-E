@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -o "C:/Users/neo30/Downloads/lab1/test_not_isim_beh.exe" -prj "C:/Users/neo30/Downloads/lab1/test_not_beh.prj" "work.test_not" 
