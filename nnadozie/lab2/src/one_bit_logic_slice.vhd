@@ -44,14 +44,14 @@ architecture Behavioral of one_bit_logic_slice is
                f : out std_logic);
   end component;
 
-  signal s0, s1, s2, s3 : std_logic
+  signal s0, s1, s2, s3 : std_logic;
 
   begin
     NotGate   : not_gate port map (a, s0);
     AndGate  : and_gate port map (a, b, s1);
-    XorGate  : and_gate port map (a, b, s2);
+    XorGate  : xor_gate port map (a, b, s2);
     OrGate    : or_gate port map (a, b, s3);
-    FourInMux : four_input_mux port map (Control(0), Control(1), s0, s1, s2, s3, Output);
+    FourInMux : four_input_mux port map (Control(1), Control(0), s0, s1, s2, s3, Output);
 
 
 end Behavioral;
