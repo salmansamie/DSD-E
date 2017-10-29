@@ -41,9 +41,9 @@ component four_input_mux
 	end component;  
 
 signal mux_to_four, mux_to_four_zero: std_logic;  
-	begin  
+begin  
 	inst: for i in n-1 downto 0 generate  
-	
+
 	if1: if i = n-1 generate  
 	two_mux: two_input_mux port map (data_in1(0),left_in, left_select, mux_to_four);  
 	four_mux_two: four_input_mux port map (data_in1(i), data_in1(i-1), mux_to_four, data_in2(i), control, output(i));  
@@ -57,7 +57,7 @@ signal mux_to_four, mux_to_four_zero: std_logic;
 	if3: if ((i/=0) and (i/=n-1)) generate  
 	four_mux_mid: four_input_mux port map (data_in1(i),data_in1(i-1), data_in1(i+1), data_in2(i), control, output(i));  
 	end generate;  
-	
+
 end generate;  
 
 end Behavioral;  

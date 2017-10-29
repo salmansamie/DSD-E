@@ -1,0 +1,102 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml four_bit_alu.twx four_bit_alu.ncd -o four_bit_alu.twr
+four_bit_alu.pcf
+
+Design file:              four_bit_alu.ncd
+Physical constraint file: four_bit_alu.pcf
+Device,package,speed:     xc3s500e,ft256,-4 (PRODUCTION 1.27 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+F<0>           |C_out          |   10.529|
+F<0>           |Output<0>      |    7.505|
+F<0>           |Output<1>      |    9.350|
+F<0>           |Output<2>      |    9.169|
+F<0>           |Output<3>      |   11.070|
+F<1>           |C_out          |   11.097|
+F<1>           |Output<0>      |    8.372|
+F<1>           |Output<1>      |    9.918|
+F<1>           |Output<2>      |    9.737|
+F<1>           |Output<3>      |   11.638|
+F<2>           |Output<0>      |    7.291|
+F<2>           |Output<1>      |    7.126|
+F<2>           |Output<2>      |    6.828|
+F<2>           |Output<3>      |    7.355|
+InA<0>         |C_out          |   10.291|
+InA<0>         |Output<0>      |    7.347|
+InA<0>         |Output<1>      |    9.112|
+InA<0>         |Output<2>      |    8.931|
+InA<0>         |Output<3>      |   10.832|
+InA<1>         |C_out          |    9.107|
+InA<1>         |Output<1>      |    8.285|
+InA<1>         |Output<2>      |    7.273|
+InA<1>         |Output<3>      |    9.648|
+InA<2>         |C_out          |    7.784|
+InA<2>         |Output<2>      |    9.190|
+InA<2>         |Output<3>      |    8.966|
+InA<3>         |C_out          |    6.818|
+InA<3>         |Output<3>      |    8.753|
+InB<0>         |C_out          |    9.937|
+InB<0>         |Output<0>      |    6.829|
+InB<0>         |Output<1>      |    8.758|
+InB<0>         |Output<2>      |    8.577|
+InB<0>         |Output<3>      |   10.478|
+InB<1>         |C_out          |    9.403|
+InB<1>         |Output<1>      |    7.869|
+InB<1>         |Output<2>      |    7.743|
+InB<1>         |Output<3>      |    9.944|
+InB<2>         |C_out          |    8.744|
+InB<2>         |Output<2>      |    8.216|
+InB<2>         |Output<3>      |    9.478|
+InB<3>         |C_out          |    7.803|
+InB<3>         |Output<3>      |    7.488|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Oct 25 18:07:03 2017 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 183 MB
+
+
+

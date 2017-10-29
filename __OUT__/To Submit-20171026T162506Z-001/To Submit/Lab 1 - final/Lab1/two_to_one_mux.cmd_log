@@ -1,0 +1,2 @@
+vhdtdtfi -lib work two_to_one_mux.vhd -prj Lab1 -o two_to_one_mux.spl -module two_to_one_mux -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family aspartan3e two_to_one_mux.spl C:/Users/js317/Desktop/DSD/Lab1/two_to_one_mux.sym 
