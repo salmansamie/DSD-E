@@ -1,0 +1,156 @@
+V3 82
+FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/four_bit_adder.vhd" 2017/10/25.11:39:49 P.20131013
+EN work/four_bit_adder 1508950898 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/four_bit_adder.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/four_bit_adder/Behavioral 1508950899 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/four_bit_adder.vhd" \
+      EN work/four_bit_adder 1508950898 CP nbit_xor_control CP four_bit_lac_adder
+FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/four_bit_alu.vhd" 2017/10/24.16:56:33 P.20131013
+EN work/four_bit_alu 1508950904 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/four_bit_alu.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/four_bit_alu/Behavioral 1508950905 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/four_bit_alu.vhd" \
+      EN work/four_bit_alu 1508950904 CP four_bit_arithmetic_unit \
+      CP nbit_logic_unit CP nbit_two_input_mux
+FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/four_bit_arithmetic_unit.vhd" 2017/10/24.15:12:26 P.20131013
+EN work/four_bit_arithmetic_unit 1508950900 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/four_bit_arithmetic_unit.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/four_bit_arithmetic_unit/Behavioral 1508950901 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/four_bit_arithmetic_unit.vhd" \
+      EN work/four_bit_arithmetic_unit 1508950900 CP nbit_two_input_mux \
+      CP four_bit_adder
+FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/four_bit_LAC.vhd" 2008/10/01.16:40:48 P.20131013
+EN work/four_bit_LAC 1508950878 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/four_bit_LAC.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/four_bit_LAC/Behavioral 1508950879 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/four_bit_LAC.vhd" \
+      EN work/four_bit_LAC 1508950878
+FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/four_bit_lac_adder.vhd" 2017/10/25.11:39:56 P.20131013
+EN work/four_bit_lac_adder 1508950892 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/four_bit_lac_adder.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/four_bit_lac_adder/Behavioral 1508950893 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/four_bit_lac_adder.vhd" \
+      EN work/four_bit_lac_adder 1508950892 CP four_bit_LAC CP nbit_adder
+FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/four_bit_shifter.vhd" 2008/10/01.16:41:52 P.20131013
+EN work/four_bit_shifter 1508951274 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/four_bit_shifter.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/four_bit_shifter/Behavioral 1508951275 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/four_bit_shifter.vhd" \
+      EN work/four_bit_shifter 1508951274 CP shift_control_logic CP shift_rotate
+FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/four_input_mux.vhd" 2017/10/25.11:36:03 P.20131013
+EN work/four_input_mux 1508951268 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/four_input_mux.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/four_input_mux/Behavioral 1508951269 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/four_input_mux.vhd" \
+      EN work/four_input_mux 1508951268 CP two_to_one_mux
+FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/full_adder.vhd" 2017/10/23.07:58:18 P.20131013
+EN work/full_adder 1508950874 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/full_adder.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/full_adder/halfadd_architecture 1508950875 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/full_adder.vhd" \
+      EN work/full_adder 1508950874 CP half_adder CP two_input_or
+FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/half_adder.vhd" 2017/10/23.07:58:56 P.20131013
+EN work/half_adder 1508950870 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/half_adder.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/half_adder/Behavioral 1508950871 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/half_adder.vhd" \
+      EN work/half_adder 1508950870
+FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/logic_slice.vhd" 2017/10/25.11:35:37 P.20131013
+EN work/logic_slice 1508950894 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/logic_slice.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/logic_slice/Behavioral 1508950895 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/logic_slice.vhd" \
+      EN work/logic_slice 1508950894 CP not_gate CP two_input_and CP two_input_xor \
+      CP two_input_or CP four_input_mux
+FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/nbit_adder.vhd" 2017/10/25.17:53:46 P.20131013
+EN work/nbit_adder 1508950880 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/nbit_adder.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/nbit_adder/Behavioral 1508950881 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/nbit_adder.vhd" \
+      EN work/nbit_adder 1508950880 CP full_adder
+FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/nbit_logic_unit.vhd" 2017/10/25.11:34:58 P.20131013
+EN work/nbit_logic_unit 1508950902 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/nbit_logic_unit.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/nbit_logic_unit/Behavioral 1508950903 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/nbit_logic_unit.vhd" \
+      EN work/nbit_logic_unit 1508950902 CP logic_slice
+FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/nbit_two_input_mux.vhd" 2017/10/23.17:11:08 P.20131013
+EN work/nbit_two_input_mux 1508950896 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/nbit_two_input_mux.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/nbit_two_input_mux/Behavioral 1508950897 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/nbit_two_input_mux.vhd" \
+      EN work/nbit_two_input_mux 1508950896 CP two_to_one_mux
+FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/nbit_xor_control.vhd" 2017/10/24.15:09:08 P.20131013
+EN work/nbit_xor_control 1508950890 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/nbit_xor_control.vhd" \
+      PB ieee/std_logic_1164 1381692176 PB ieee/std_logic_arith 1381692177 \
+      PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/nbit_xor_control/Behavioral 1508950891 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/nbit_xor_control.vhd" \
+      EN work/nbit_xor_control 1508950890 CP two_input_xor
+FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/not_gate.vhd" 2017/10/23.07:56:02 P.20131013
+EN work/not_gate 1508950884 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/not_gate.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/not_gate/Behavioral 1508950885 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/not_gate.vhd" \
+      EN work/not_gate 1508950884
+FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/shift_control_logic.vhd" 2017/10/25.11:37:30 P.20131013
+EN work/shift_control_logic 1508951270 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/shift_control_logic.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/shift_control_logic/Behavioral 1508951271 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/shift_control_logic.vhd" \
+      EN work/shift_control_logic 1508951270
+FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/shift_rotate.vhd" 2017/10/24.16:48:54 P.20131013
+EN work/shift_rotate 1508951272 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/shift_rotate.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/shift_rotate/Behavioral 1508951273 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/shift_rotate.vhd" \
+      EN work/shift_rotate 1508951272 CP two_to_one_mux CP four_input_mux
+FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/two_input_and.vhd" 2017/10/23.07:53:12 P.20131013
+EN work/two_input_and 1508950886 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/two_input_and.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/two_input_and/Behavioral 1508950887 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/two_input_and.vhd" \
+      EN work/two_input_and 1508950886
+FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/two_input_or.vhd" 2017/10/23.07:52:40 P.20131013
+EN work/two_input_or 1508950872 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/two_input_or.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/two_input_or/Behavioral 1508950873 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/two_input_or.vhd" \
+      EN work/two_input_or 1508950872
+FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/two_input_xor.vhd" 2017/10/23.07:54:38 P.20131013
+EN work/two_input_xor 1508950882 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/two_input_xor.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/two_input_xor/Behavioral 1508950883 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/two_input_xor.vhd" \
+      EN work/two_input_xor 1508950882
+FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/two_to_one_mux.vhd" 2017/10/23.07:55:02 P.20131013
+EN work/two_to_one_mux 1508951266 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/two_to_one_mux.vhd" \
+      PB ieee/std_logic_1164 1381692176
+AR work/two_to_one_mux/Behavioral 1508951267 \
+      FL "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/two_to_one_mux.vhd" \
+      EN work/two_to_one_mux 1508951266

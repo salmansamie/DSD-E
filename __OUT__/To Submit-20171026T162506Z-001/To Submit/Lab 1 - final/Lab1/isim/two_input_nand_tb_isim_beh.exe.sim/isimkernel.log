@@ -1,0 +1,28 @@
+Command line:
+   two_input_nand_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  13417
+
+Thu Oct 19 17:44:23 2017
+
+
+ Elaboration Time: 0.015625 sec
+
+ Current Memory Usage: 1321.03 Meg
+
+ Total Signals          : 6
+ Total Nets             : 3
+ Total Signal Drivers   : 3
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 2
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 363
+
+ Total Simulation Time: 0.03125 sec
+
+ Current Memory Usage: 1321.03 Meg
+
+Thu Oct 19 17:44:30 2017
+

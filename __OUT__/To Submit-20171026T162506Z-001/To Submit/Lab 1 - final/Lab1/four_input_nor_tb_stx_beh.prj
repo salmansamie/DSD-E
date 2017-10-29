@@ -1,0 +1,2 @@
+vhdl isim_temp "four_input_nor.vhd"
+vhdl isim_temp "four_input_nor_tb.vhd"

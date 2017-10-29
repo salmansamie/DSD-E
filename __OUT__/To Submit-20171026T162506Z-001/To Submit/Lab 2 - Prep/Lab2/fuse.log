@@ -1,0 +1,31 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/four_bit_shifter_tb_vhd_isim_beh.exe -prj C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/four_bit_shifter_tb_vhd_beh.prj work.four_bit_shifter_tb_vhd 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/two_to_one_mux.vhd" into library work
+Parsing VHDL file "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/four_input_mux.vhd" into library work
+Parsing VHDL file "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/shift_rotate.vhd" into library work
+Parsing VHDL file "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/shift_control_logic.vhd" into library work
+Parsing VHDL file "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/four_bit_shifter.vhd" into library work
+Parsing VHDL file "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/four_bit_shifter_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling package numeric_std
+Compiling architecture behavioral of entity shift_control_logic [shift_control_logic_default]
+Compiling architecture behavioral of entity two_to_one_mux [two_to_one_mux_default]
+Compiling architecture behavioral of entity four_input_mux [four_input_mux_default]
+Compiling architecture behavioral of entity shift_rotate [\shift_rotate(4)\]
+Compiling architecture behavioral of entity four_bit_shifter [four_bit_shifter_default]
+Compiling architecture behavior of entity four_bit_shifter_tb_vhd
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+WARNING:Simulator - Unable to copy libPortabilityNOSH.dll to the simulation executable directory: boost::filesystem::copy_file: The system cannot find the path specified, "isim\four_bit_shifter_tb_vhd_isim_beh.exe.sim\libPortability.dll".
+Compiled 16 VHDL Units
+Built simulation executable C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/four_bit_shifter_tb_vhd_isim_beh.exe
+Fuse Memory Usage: 37272 KB
+Fuse CPU Usage: 530 ms

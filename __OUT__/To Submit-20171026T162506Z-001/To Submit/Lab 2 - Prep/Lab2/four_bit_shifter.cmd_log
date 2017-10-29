@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/four_bit_shifter.xst" -ofn "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/four_bit_shifter.syr" 
