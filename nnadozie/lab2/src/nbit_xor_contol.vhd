@@ -70,7 +70,7 @@ end nbit_xor_contol;
 architecture Behavioral of nbit_xor_contol is
 
 -- COMPONENTS
-component two_input_xor
+component xor_gate
     Port ( a : in std_logic;
            b : in std_logic;
            f : out std_logic);
@@ -83,7 +83,7 @@ begin
 inst : for i in n-1 downto 0 generate
 
 	-- generate n instances of the device "two_input_xor"
-	xor_gate_i : two_input_xor port map (Input(i), control, Output(i));
+	xor_gate_i : xor_gate port map (Input(i), control, Output(i));
 
 end generate;
 
