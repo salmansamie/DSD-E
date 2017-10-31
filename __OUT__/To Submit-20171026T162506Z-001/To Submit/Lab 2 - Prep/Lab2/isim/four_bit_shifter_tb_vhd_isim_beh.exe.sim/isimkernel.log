@@ -1,0 +1,10 @@
+Command line:
+   four_bit_shifter_tb_vhd_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  10150
+
+Wed Oct 25 17:59:02 2017
+
+
+ Elaboration Time: 0.03125 sec

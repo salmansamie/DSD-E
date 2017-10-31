@@ -1,0 +1,6 @@
+vhdl isim_temp "two_to_one_mux.vhd"
+vhdl isim_temp "four_input_mux.vhd"
+vhdl isim_temp "shift_rotate.vhd"
+vhdl isim_temp "shift_control_logic.vhd"
+vhdl isim_temp "four_bit_shifter.vhd"
+vhdl isim_temp "four_bit_shifter_tb.vhd"

@@ -1,0 +1,2 @@
+vhdtdtfi -lib work two_input_or.vhd -prj Lab1 -o two_input_or.spl -module two_input_or -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family aspartan3e two_input_or.spl C:/Users/js317/Desktop/DSD/Lab1/two_input_or.sym 

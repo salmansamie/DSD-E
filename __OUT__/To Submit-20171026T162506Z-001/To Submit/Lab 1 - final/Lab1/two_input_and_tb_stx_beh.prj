@@ -1,0 +1,2 @@
+vhdl isim_temp "two_input_and.vhd"
+vhdl isim_temp "two_input_and_tb.vhd"

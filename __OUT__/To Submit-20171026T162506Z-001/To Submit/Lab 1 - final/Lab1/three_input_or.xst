@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/js317/Desktop/DSD/Lab1/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/js317/Desktop/DSD/Lab1/xst"
+elaborate
+-ifn three_input_or.prj
+-ifmt mixed

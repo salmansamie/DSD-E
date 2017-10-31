@@ -1,0 +1,2 @@
+vhdtdtfi -lib work four_input_nor.vhd -prj Lab1 -o four_input_nor.spl -module four_input_nor -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family aspartan3e four_input_nor.spl C:/Users/js317/Desktop/DSD/Lab1/four_input_nor.sym 
