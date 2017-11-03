@@ -27,9 +27,9 @@ architecture Behavioral of four_bit_arithmetic_unit is
   end component;
 
   signal s0 : std_logic_vector(3 downto 0);
-  signal s1 : std_logic_vector(3 downto 0 := "0001")
+  signal s1 : std_logic_vector(3 downto 0) := (others=>'0');
 
   begin
-    twoinmux : nbit_two_input_mux port map (s1, InB, Control, s0);
-    addersub : four_bit_adder_subtractor port map (InA, s0, Control, Sum, C_out);
+    twoinmux : nbit_two_input_mux port map (s1, InB, Control(0), s0);
+    addersub : four_bit_adder_subtractor port map (InA, s0, Control(1), Sum, C_out);
 end Behavioral;

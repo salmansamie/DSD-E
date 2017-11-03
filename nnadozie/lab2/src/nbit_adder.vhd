@@ -28,8 +28,9 @@ architecture Behavioral of nbit_adder is
 	end component;
 
 	begin
-		inst: for i in n-1 downto 0 generate
-			nbit_adder_i : full_adder port map (InA(i), InB(i), C_terms(i), Sum(i), C_out);
+		inst: for i in n-2 downto 0 generate
+			nbit_adder_i : full_adder port map (InA(i), InB(i), C_terms(i), Sum(i));
 		end generate;
+		nbit_adder_last : full_adder port map (InA(n-1), InB(n-1), C_terms(n-1), Sum(n-1), C_out);
 
 end Behavioral;

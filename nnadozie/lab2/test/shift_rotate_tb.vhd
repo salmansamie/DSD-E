@@ -7,6 +7,7 @@ end shift_rotate_tb;
 architecture Behavioral of shift_rotate_tb is
 
     component shift_rotate
+        Generic ( n : positive := 4 );
         port (Data_In1     : in std_logic_vector (3 downto 0);
               Data_In2     : in std_logic_vector (3 downto 0);
               Right_In     : in std_logic;
@@ -28,15 +29,6 @@ architecture Behavioral of shift_rotate_tb is
 
 begin
 
--- control(1) | control (0) | left/right select | Function
---    0             0               x               no func on Data_in1
---    0             1               0               rotate left Data_in1
---    0             1               1               shift left Data_in1 with right in
---    1             0               0               rotate right Data_in1
---    1             0               1               shift right Data_in1 with left in
---    1             1               x               no func on Data_In2
-
-
     dut : shift_rotate
     port map (Data_In1     => Data_In1,
               Data_In2     => Data_In2,
@@ -49,30 +41,46 @@ begin
 
     stimuli : process
     begin
+     
+		Control      <=  "01";
+		Right_Select <=  '0';
+		Left_select  <=  '0';       --Rotate Left
+		Data_In1     <=  "0100"; 
+		Data_In2     <=  "0100";
+		Right_In     <=  '1';
+		Left_in      <=  '1';
+		
       wait for 100 ns;
-        Data_In1 <= "1011";
-        Data_In2 <= "1101";
-        Right_In <= '0';
-        Right_Select <= '0';
-        Left_in <= '0';
-        Left_select <= '0';
-        control <= "00";
-      wait for 100 ns;
-        assert(Output="1011") report "Fail Data_In1=1011, Data_In2=1101, Right_In=0, Right_Select=0, Left_in=0, Left_select=0, control=00" severity error;
-        control <= "11";
-      wait for 100 ns;
-        assert(Output="1101") report "Fail Data_In1=1011, Data_In2=1101, Right_In=0, Right_Select=0, Left_in=0, Left_select=0, control=11" severity error;
-        control <= "01";
-      wait for 100 ns;
-        assert(Output="0111") report "Fail Data_In1=1011, Data_In2=1101, Right_In=0, Right_Select=0, Left_in=0, Left_select=0, control=01" severity error;
-        Right_Select <= '1';
-      wait for 100 ns;
-        assert(Output="0110") report "Fail Data_In1=1011, Data_In2=1101, Right_In=0, Right_Select=1, Left_in=0, Left_select=0, control=01" severity error;
-        control <= "10";
-      wait for 100 ns;
-        assert(Output="1101") report "Fail Data_In1=1011, Data_In2=1101, Right_In=0, Right_Select=1, Left_in=0, Left_select=0, control=10" severity error;
-        Left_select <= '1';
-        assert(output="0101") report "Fail Data_In1=1011, Data_In2=1101, Right_In=0, Right_Select=1, Left_in=0, Left_select=1, control=10" severity error;
+
+      Control      <=  "01";
+		Right_Select <=  '1';
+		Left_select  <=  '1';       --Shift Left
+		Data_In1     <=  "0100"; 
+		Data_In2     <=  "0100";
+		Right_In     <=  '1';
+		Left_in      <=  '1';
+		
+		
+		
+		wait for 100 ns;
+
+      Control      <=  "10";
+		Right_Select <=  '0';
+		Left_select  <=  '0';       --Rotate Right
+		Data_In1     <=  "0100"; 
+		Data_In2     <=  "0100";
+		Right_In     <=  '1';
+		Left_in      <=  '1';
+		
+		wait for 100 ns;
+
+      Control      <=  "10";
+		Right_Select <=  '1';
+		Left_select  <=  '1';       --Shift Right
+		Data_In1     <=  "0100"; 
+		Data_In2     <=  "0100";
+		Right_In     <=  '1';
+		Left_in      <=  '1'; 
       wait;
     end process;
 

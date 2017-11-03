@@ -21,7 +21,7 @@ architecture behavioural of one_bit_logic_slice_tb is
 
   signal a, b, Output : std_logic := '0';
   signal Control : std_logic_vector(1 downto 0);
-  
+
   begin
 	uut: one_bit_logic_slice PORT MAP(
 		a => a,
@@ -42,15 +42,15 @@ architecture behavioural of one_bit_logic_slice_tb is
 			wait for 100ns;
               assert(Output='1') report "c=00, a=0, b=1" severity error;
               a <= '1';
-              b <= '0';  		  
+              b <= '0';
             wait for 100ns;
               assert(Output='0') report "c=00, a=1, b=0" severity error;
 			  a <= '1';
               b <= '1';
             wait for 100ns;
               assert(Output='0') report "c=00, a=1, b=1" severity error;
-			  
-			  
+
+
 			  Control <= "01";
               a <= '0';
               b <= '0';
@@ -67,9 +67,9 @@ architecture behavioural of one_bit_logic_slice_tb is
               a <= '1';
               b <= '1';
             wait for 100ns;
-              assert(Output='0') report "c=01, a=1, b=1" severity error;
-			  
-			  
+              assert(Output='1') report "c=01, a=1, b=1" severity error;
+
+
 			  Control <= "10";
               a <= '0';
               b <= '0';
@@ -87,8 +87,8 @@ architecture behavioural of one_bit_logic_slice_tb is
               b <= '1';
             wait for 100ns;
               assert(Output='0') report "c=10, a=1, b=1" severity error;
-			  
-			  
+
+
 			  Control <= "11";
               a <= '0';
               b <= '0';
@@ -106,7 +106,7 @@ architecture behavioural of one_bit_logic_slice_tb is
               b <= '1';
             wait for 100ns;
               assert(Output='1') report "c=11, a=1, b=1" severity error;
-			  
+
             wait; --end of test: wait forever...
           end process;
 end behavioural;

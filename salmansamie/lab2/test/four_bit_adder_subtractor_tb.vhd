@@ -52,10 +52,10 @@ BEGIN
   		InA <= "0011";  -- note double quotes for n-bit values
       InB <= "0101";
 		wait for 100 ns;
-      assert(Output="1000") report "Fail c=0, ina=0011, inb=0101" severity error;
+      assert(Sum="1000") report "Fail c=0, ina=0011, inb=0101" severity error;
       Control <= '1';
     wait for 100 ns;
-      assert(Output="1100") report "Fail c=1, ina=0011, inb=0101" severity error;
+      assert(Sum="1110") report "Fail c=1, ina=0011, inb=0101" severity error;
 		wait; -- will wait forever
 	END PROCESS;
 
