@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -o "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/four_bit_shifter_tb_vhd_isim_beh.exe" -prj "C:/Users/js317/Desktop/DSD/Lab 2 - prep/Lab2/four_bit_shifter_tb_vhd_beh.prj" "work.four_bit_shifter_tb_vhd" 

@@ -1,0 +1,6 @@
+vhdl isim_temp "../../../for_testing_submission/src/lab1/OR.vhd"
+vhdl isim_temp "../../../for_testing_submission/src/lab1/NOT.vhd"
+vhdl isim_temp "../../../for_testing_submission/src/lab1/AND.vhd"
+vhdl isim_temp "../../../for_testing_submission/src/lab2/four_input_mux.vhd"
+vhdl isim_temp "../../../for_testing_submission/src/lab1/two_input_multiplexer.vhd"
+vhdl isim_temp "../../../for_testing_submission/src/lab2/shift_rotate.vhd"

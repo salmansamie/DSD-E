@@ -1,2 +1,0 @@
-vhdtdtfi -lib work half_adder.vhd -prj Lab1 -o half_adder.spl -module half_adder -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
-spl2sym -intstyle ise -family aspartan3e half_adder.spl C:/Users/js317/Desktop/DSD/Lab1/half_adder.sym 

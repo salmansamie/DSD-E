@@ -1,2 +1,0 @@
-vhdtdtfi -lib work three_input_or.vhd -prj Lab1 -o three_input_or.spl -module three_input_or -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
-spl2sym -intstyle ise -family aspartan3e three_input_or.spl C:/Users/js317/Desktop/DSD/Lab1/three_input_or.sym 

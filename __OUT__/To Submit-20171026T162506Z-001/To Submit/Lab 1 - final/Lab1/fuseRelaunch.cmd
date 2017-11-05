@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -o "C:/Users/js317/Desktop/DSD/Lab1/half_adder_tb_isim_beh.exe" -prj "C:/Users/js317/Desktop/DSD/Lab1/half_adder_tb_beh.prj" "work.half_adder_tb" 

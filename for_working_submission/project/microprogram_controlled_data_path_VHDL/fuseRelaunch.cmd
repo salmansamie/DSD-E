@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/shift_rotate_tb_isim_beh.exe" -prj "C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/shift_rotate_tb_beh.prj" "work.shift_rotate_tb" 

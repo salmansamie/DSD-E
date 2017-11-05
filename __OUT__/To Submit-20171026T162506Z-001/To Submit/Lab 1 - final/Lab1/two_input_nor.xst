@@ -1,5 +1,0 @@
-set -tmpdir "C:/Users/js317/Desktop/DSD/Lab1/xst/projnav.tmp"
-set -xsthdpdir "C:/Users/js317/Desktop/DSD/Lab1/xst"
-elaborate
--ifn two_input_nor.prj
--ifmt mixed
