@@ -1,15 +1,23 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/shift_rotate_tb_isim_beh.exe -prj C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/shift_rotate_tb_beh.prj work.shift_rotate_tb 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib secureip -o C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/four_bit_arithmetic_unit_tb_isim_beh.exe -prj C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/four_bit_arithmetic_unit_tb_beh.prj work.four_bit_arithmetic_unit_tb 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/../../../for_testing_submission/src/lab1/OR.vhd" into library work
-Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/../../../for_testing_submission/src/lab1/NOT.vhd" into library work
-Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/../../../for_testing_submission/src/lab1/AND.vhd" into library work
-Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/../../../for_testing_submission/src/lab2/four_input_mux.vhd" into library work
-Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/../../../for_testing_submission/src/lab1/two_input_multiplexer.vhd" into library work
-Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/../../../for_testing_submission/src/lab2/shift_rotate.vhd" into library work
-Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/../../../for_testing_submission/test/lab2/shift_rotate_tb.vhd" into library work
+Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/../../src/lab1/OR.vhd" into library work
+Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/../../src/lab1/half_adder.vhd" into library work
+Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/../../src/lab1/full_adder.vhd" into library work
+Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/../../src/lab2/nbit_adder.vhd" into library work
+Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/../../src/lab2/four_bit_LAC.vhd" into library work
+Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/../../src/lab1/XOR.vhd" into library work
+Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/../../src/lab1/NOT.vhd" into library work
+Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/../../src/lab1/AND.vhd" into library work
+Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/../../src/lab2/nbit_xor_contol.vhd" into library work
+Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/../../src/lab2/four_bit_LAC_adder.vhd" into library work
+Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/../../src/lab1/two_input_multiplexer.vhd" into library work
+Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/../../src/lab2/nbit_two_input_mux.vhd" into library work
+Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/../../src/lab2/four_bit_adder_subtractor.vhd" into library work
+Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/../../src/lab2/four_bit_arithmetic_unit.vhd" into library work
+Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/../../test/lab2/four_bit_arithmetic_unit_tb.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling package standard
@@ -20,12 +28,20 @@ Compiling architecture not_architecture of entity not_gate [not_gate_default]
 Compiling architecture and_architecture of entity and_gate [and_gate_default]
 Compiling architecture and_architecture of entity or_gate [or_gate_default]
 Compiling architecture multi_component_two_input_multiplexer_arch of entity two_input_multiplexer [two_input_multiplexer_default]
-Compiling architecture behavioural of entity four_input_mux [four_input_mux_default]
-Compiling architecture behavioral of entity shift_rotate [\shift_rotate(4)\]
-Compiling architecture behavioral of entity shift_rotate_tb
+Compiling architecture behavioral of entity nbit_two_input_mux [\nbit_two_input_mux(4)\]
+Compiling architecture xor_architecture of entity xor_gate [xor_gate_default]
+Compiling architecture behavioral of entity nbit_xor_contol [\nbit_xor_contol(4)\]
+Compiling architecture behavioral of entity four_bit_LAC [four_bit_lac_default]
+Compiling architecture low_level_half_adder of entity half_adder [half_adder_default]
+Compiling architecture multi_component_full_adder of entity full_adder [full_adder_default]
+Compiling architecture behavioral of entity nbit_adder [\nbit_adder(4)\]
+Compiling architecture behavioral of entity four_bit_LAC_adder [four_bit_lac_adder_default]
+Compiling architecture behavioral of entity four_bit_adder_subtractor [four_bit_adder_subtractor_defaul...]
+Compiling architecture behavioral of entity four_bit_arithmetic_unit [four_bit_arithmetic_unit_default]
+Compiling architecture behavioral of entity four_bit_arithmetic_unit_tb
 Time Resolution for simulation is 1ps.
-Waiting for 3 sub-compilation(s) to finish...
-Compiled 17 VHDL Units
-Built simulation executable C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/shift_rotate_tb_isim_beh.exe
-Fuse Memory Usage: 34212 KB
-Fuse CPU Usage: 764 ms
+Waiting for 11 sub-compilation(s) to finish...
+Compiled 33 VHDL Units
+Built simulation executable C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/four_bit_arithmetic_unit_tb_isim_beh.exe
+Fuse Memory Usage: 34568 KB
+Fuse CPU Usage: 905 ms

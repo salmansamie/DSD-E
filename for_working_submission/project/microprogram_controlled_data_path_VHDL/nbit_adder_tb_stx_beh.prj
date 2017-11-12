@@ -1,0 +1,5 @@
+vhdl isim_temp "../../../for_testing_submission/src/lab1/OR.vhd"
+vhdl isim_temp "../../../for_testing_submission/src/lab1/half_adder.vhd"
+vhdl isim_temp "../../../for_testing_submission/src/lab1/full_adder.vhd"
+vhdl isim_temp "../../../for_testing_submission/src/lab2/nbit_adder.vhd"
+vhdl isim_temp "../../../for_testing_submission/test/lab2/nbit_adder_tb.vhd"

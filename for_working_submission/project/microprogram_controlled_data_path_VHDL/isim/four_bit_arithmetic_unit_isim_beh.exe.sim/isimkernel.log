@@ -1,0 +1,29 @@
+Command line:
+   four_bit_arithmetic_unit_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  61898
+
+Sun Nov 12 21:18:04 2017
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 845.513 Meg
+
+ Total Signals          : 199
+ Total Nets             : 66
+ Total Signal Drivers   : 46
+ Total Blocks           : 61
+ Total Primitive Blocks : 36
+ Total Processes        : 38
+ Total Traceable Variables  : 24
+ Total Scalar Nets and Variables : 458
+Total Line Count : 170
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 845.513 Meg
+
+Sun Nov 12 21:18:09 2017
+

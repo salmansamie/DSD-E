@@ -1,7 +1,0 @@
-vhdl work "../../../for_testing_submission/src/lab1/OR.vhd"
-vhdl work "../../../for_testing_submission/src/lab1/NOT.vhd"
-vhdl work "../../../for_testing_submission/src/lab1/AND.vhd"
-vhdl work "../../../for_testing_submission/src/lab2/four_input_mux.vhd"
-vhdl work "../../../for_testing_submission/src/lab1/two_input_multiplexer.vhd"
-vhdl work "../../../for_testing_submission/src/lab2/shift_rotate.vhd"
-vhdl work "../../../for_testing_submission/test/lab2/shift_rotate_tb.vhd"
