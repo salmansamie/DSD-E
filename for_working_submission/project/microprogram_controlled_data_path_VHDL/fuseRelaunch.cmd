@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "secureip" -o "C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/four_bit_arithmetic_unit_tb_isim_beh.exe" -prj "C:/Users/neoke/Desktop/DSD-E/for_working_submission/project/microprogram_controlled_data_path_VHDL/four_bit_arithmetic_unit_tb_beh.prj" "work.four_bit_arithmetic_unit_tb" 
