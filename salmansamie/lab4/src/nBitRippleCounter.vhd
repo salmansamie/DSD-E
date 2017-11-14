@@ -2,6 +2,12 @@
 --Email: salman.rahamn@se14.qmul.ac.uk
 
 
+--Ripple counter:
+--It is an asynchronous counter where only the first flip flop is clocked 
+--by an external clock. And the rest n-flip flops are clocked by the output
+--of the previous flip-flops
+
+
 -- In this n Bit Ripple Counter we are going to use a component D flip-flop.
 -- Here, we will have two situations: 
 -- (1) When the flip-flop is clocked by the input clock or,
