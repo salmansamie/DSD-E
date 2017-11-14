@@ -7,12 +7,12 @@ use ieee.std_logic_1164.all;
 
 --Declaring the entity
 entity tb_nBitRippleCounter is
-end n_bit_ripple_counter_test;  
+end tb_nBitRippleCounter;  
 
 --Declaring Architecture for tb_nBitRippleCounter
 architecture behavior of tb_nBitRippleCounter is
     -- Component Declaration for the Unit Under Test (UUT)  
-    component tb_nBitRippleCounter  
+    component n_bit_ripple_counter  
         port(  
             CLK : in std_logic;  
             reset : in std_logic;  

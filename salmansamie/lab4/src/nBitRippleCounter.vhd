@@ -29,7 +29,7 @@ end n_bit_ripple_counter;
 architecture Behavioral of n_bit_ripple_counter is  
     
     -- Setting up the component for Q and Q(not) of Dflip-flop
-    component Tflipflopasynchronous
+    component flip_flop_clk_reset
         Port ( reset : in STD_LOGIC;  
             CLK : in STD_LOGIC;  
             Q : inout STD_LOGIC;  
@@ -46,13 +46,13 @@ architecture Behavioral of n_bit_ripple_counter is
             -- If i=0 then map the component 0
             if1: if i = 0 
                 generate
-                    T_it: Tflipflopasynchronous port map ( reset, CLK, Q_outputs(i),Q_bar_outputs(i)) ;  
+                    T_it: flip_flop_clk_reset port map ( reset, CLK, Q_outputs(i),Q_bar_outputs(i)) ;  
                 end generate;
 
             --And if i !=0, then we clock the previous Q(Not)
             if2:if i/=0 
                 generate   
-                T_it: Tflipflopasynchronous port map ( reset, Q_bar_outputs(i-1), Q_outputs(i),Q_bar_outputs(i)) ;  
+                T_it: flip_flop_clk_reset port map ( reset, Q_bar_outputs(i-1), Q_outputs(i),Q_bar_outputs(i)) ;  
                 end generate;  
         end generate;  
 
