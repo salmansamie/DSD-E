@@ -1,0 +1,10 @@
+Command line:
+   nbit_tristate_buff_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50796
+
+Tue Nov 14 16:04:24 2017
+
+
+ Elaboration Time: 0.046875 sec
