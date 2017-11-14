@@ -62,12 +62,12 @@ architecture Behavioral of nbit_shiftreg is
 -- COMPONENT
 component nbit_reg
 	 generic ( n : positive := 4);
-    Port ( D_inputs : in std_logic_vector(n-1 downto 0);
+    Port ( Dinputs : in std_logic_vector(n-1 downto 0);
            CLK : in std_logic;
            reset : in std_logic;
            preset : in std_logic;
-           Q_outputs : out std_logic_vector(n-1 downto 0);
-           Q_bar_outputs : out std_logic_vector(n-1 downto 0));
+           q : out std_logic_vector(n-1 downto 0);
+           qnot : out std_logic_vector(n-1 downto 0));
 end component;
 
 -- INTERNAL SIGNALS

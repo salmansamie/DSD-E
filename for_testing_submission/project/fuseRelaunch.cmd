@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/nbit_tristate_buff_tb_isim_beh.exe" -prj "C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/nbit_tristate_buff_tb_beh.prj" "work.nbit_tristate_buff_tb" 
+-intstyle "ise" -incremental -o "C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/nbit_parallel_load_shiftreg_tb_isim_beh.exe" -prj "C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/nbit_parallel_load_shiftreg_tb_beh.prj" "work.nbit_parallel_load_shiftreg_tb" 
