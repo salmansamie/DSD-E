@@ -25,19 +25,24 @@
     <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
-    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="nbit_tristate_buff_tb_beh.prj"/>
-    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="nbit_tristate_buff_tb_isim_beh.exe"/>
-    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="nbit_tristate_buff_tb_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="nbit_parallel_load_shiftreg_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="nbit_parallel_load_shiftreg_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="nbit_parallel_load_shiftreg_tb_isim_beh.wdb"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="nbit_shiftreg_tb_vhd_isim_beh.exe"/>
     <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1510675454" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1510675453">
-      <status xil_pn:value="SuccessfullyRun"/>
-    </transform>
-    <transform xil_pn:end_ts="1510675454" xil_pn:in_ck="3416677128593923444" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1510675454">
+    <transform xil_pn:end_ts="1510698388" xil_pn:in_ck="7535866764230692108" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1510698388">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../src/lab3/nbit_loadhold_triout_reg.vhd"/>
+      <outfile xil_pn:name="../src/lab3/nbit_parallel_load_shiftreg.vhd"/>
+      <outfile xil_pn:name="../src/lab3/nbit_shiftreg.vhd"/>
+      <outfile xil_pn:name="../test/lab3/nbit_loadhold_triout_reg_tb.vhd"/>
+      <outfile xil_pn:name="../test/lab3/nbit_parallel_load_shiftreg_tb.vhd"/>
+      <outfile xil_pn:name="../test/lab3/nbit_shiftreg_tb.vhd"/>
       <outfile xil_pn:name="microprogram_cdp_test_VHDL/AND.vhd"/>
       <outfile xil_pn:name="microprogram_cdp_test_VHDL/NAND.vhd"/>
       <outfile xil_pn:name="microprogram_cdp_test_VHDL/NOT.vhd"/>
@@ -75,8 +80,6 @@
       <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_logic_unit_tb.vhd"/>
       <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_reg.vhd"/>
       <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_reg_tb.vhd"/>
-      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_shiftreg.vhd"/>
-      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_shiftreg_tb.vhd"/>
       <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_tristate_buff.vhd"/>
       <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_tristate_buff_tb.vhd"/>
       <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_two_input_mux.vhd"/>
@@ -103,21 +106,27 @@
       <outfile xil_pn:name="microprogram_cdp_test_VHDL/two_input_multiplexer.vhd"/>
       <outfile xil_pn:name="microprogram_cdp_test_VHDL/two_input_multiplexer_test.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1510675454" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="8266978170059890441" xil_pn:start_ts="1510675454">
+    <transform xil_pn:end_ts="1510698278" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="4943476040204555902" xil_pn:start_ts="1510698278">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1510675454" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3417873446322920117" xil_pn:start_ts="1510675454">
+    <transform xil_pn:end_ts="1510698278" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-7096458581194631168" xil_pn:start_ts="1510698278">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1510675454" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="7621793174340561755" xil_pn:start_ts="1510675454">
+    <transform xil_pn:end_ts="1510697577" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="7621793174340561755" xil_pn:start_ts="1510697577">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1510675454" xil_pn:in_ck="3416677128593923444" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1510675454">
+    <transform xil_pn:end_ts="1510698388" xil_pn:in_ck="7535866764230692108" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1510698388">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../src/lab3/nbit_loadhold_triout_reg.vhd"/>
+      <outfile xil_pn:name="../src/lab3/nbit_parallel_load_shiftreg.vhd"/>
+      <outfile xil_pn:name="../src/lab3/nbit_shiftreg.vhd"/>
+      <outfile xil_pn:name="../test/lab3/nbit_loadhold_triout_reg_tb.vhd"/>
+      <outfile xil_pn:name="../test/lab3/nbit_parallel_load_shiftreg_tb.vhd"/>
+      <outfile xil_pn:name="../test/lab3/nbit_shiftreg_tb.vhd"/>
       <outfile xil_pn:name="microprogram_cdp_test_VHDL/AND.vhd"/>
       <outfile xil_pn:name="microprogram_cdp_test_VHDL/NAND.vhd"/>
       <outfile xil_pn:name="microprogram_cdp_test_VHDL/NOT.vhd"/>
@@ -155,8 +164,6 @@
       <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_logic_unit_tb.vhd"/>
       <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_reg.vhd"/>
       <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_reg_tb.vhd"/>
-      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_shiftreg.vhd"/>
-      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_shiftreg_tb.vhd"/>
       <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_tristate_buff.vhd"/>
       <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_tristate_buff_tb.vhd"/>
       <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_two_input_mux.vhd"/>
@@ -183,20 +190,22 @@
       <outfile xil_pn:name="microprogram_cdp_test_VHDL/two_input_multiplexer.vhd"/>
       <outfile xil_pn:name="microprogram_cdp_test_VHDL/two_input_multiplexer_test.vhd"/>
     </transform>
-    <transform xil_pn:end_ts="1510675460" xil_pn:in_ck="3416677128593923444" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="696069290512853684" xil_pn:start_ts="1510675454">
+    <transform xil_pn:end_ts="1510698394" xil_pn:in_ck="7535866764230692108" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="3921961969792277022" xil_pn:start_ts="1510698388">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="fuse.log"/>
       <outfile xil_pn:name="isim"/>
-      <outfile xil_pn:name="nbit_tristate_buff_tb_beh.prj"/>
-      <outfile xil_pn:name="nbit_tristate_buff_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="nbit_parallel_load_shiftreg_tb_beh.prj"/>
+      <outfile xil_pn:name="nbit_parallel_load_shiftreg_tb_isim_beh.exe"/>
       <outfile xil_pn:name="xilinxsim.ini"/>
     </transform>
-    <transform xil_pn:end_ts="1510675461" xil_pn:in_ck="7606095251588236877" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="1168928598537944961" xil_pn:start_ts="1510675460">
+    <transform xil_pn:end_ts="1510698394" xil_pn:in_ck="-8314938864084360294" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1028907998543267669" xil_pn:start_ts="1510698394">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <outfile xil_pn:name="isim.cmd"/>
-      <outfile xil_pn:name="nbit_tristate_buff_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="nbit_parallel_load_shiftreg_tb_isim_beh.wdb"/>
     </transform>
   </transforms>
 

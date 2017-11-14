@@ -50,7 +50,7 @@ begin
 clk <= not clk after 50 ns; -- period = 100ns
 
 --if hold enabled, should give last q even though there's a new input.
---unless preset is enables, in which case it should gives all 1s
+--unless preset is enabled, in which case it should gives all 1s
 stim_proc: process
 begin
 	wait for 100 ns;

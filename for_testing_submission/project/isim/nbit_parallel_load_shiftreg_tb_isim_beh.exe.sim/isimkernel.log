@@ -1,0 +1,29 @@
+Command line:
+   nbit_parallel_load_shiftreg_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51810
+
+Tue Nov 14 22:26:36 2017
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 845.103 Meg
+
+ Total Signals          : 219
+ Total Nets             : 70
+ Total Signal Drivers   : 56
+ Total Blocks           : 72
+ Total Primitive Blocks : 44
+ Total Processes        : 44
+ Total Traceable Variables  : 34
+ Total Scalar Nets and Variables : 590
+Total Line Count : 178
+
+ Total Simulation Time: 0.125 sec
+
+ Current Memory Usage: 845.103 Meg
+
+Tue Nov 14 22:27:04 2017
+
