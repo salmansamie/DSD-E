@@ -47,11 +47,11 @@ BEGIN
       InB <= "0101";
 		wait for 100 ns;
       assert(Sum="1000") report "Fail c=0, ina=0011, inb=0101" severity error;
-      assert(C_out="1000") report "Fail c=0, ina=0011, inb=0101" severity error;
+      assert(C_out='0') report "Fail c=0, ina=0011, inb=0101" severity error;
       C_in <= '1';
     wait for 100 ns;
-      assert(Sum="1101") report "Fail c=1, ina=0011, inb=0101" severity error;
-      assert(C_out="1000") report "Fail c=1, ina=0011, inb=0101" severity error;
+      assert(Sum="1001") report "Fail c=1, ina=0011, inb=0101" severity error;
+      assert(C_out='0') report "Fail c=1, ina=0011, inb=0101" severity error;
 		wait; -- will wait forever
 	END PROCESS;
 

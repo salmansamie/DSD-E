@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="microprogram_cdp_test_VHDL/microprogram_cdp_test_VHDL.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="four_bit_linear_feedback_shiftreg_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="four_bit_linear_feedback_shiftreg_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="four_bit_linear_feedback_shiftreg_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="nbit_parallel_load_shiftreg_tb_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="nbit_shiftreg_tb_vhd_isim_beh.exe"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1510706382" xil_pn:in_ck="264093526013516119" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1510706382">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../src/lab3/four_bit_linear_feedback_shiftreg.vhd"/>
+      <outfile xil_pn:name="../src/lab3/nbit_loadhold_triout_reg.vhd"/>
+      <outfile xil_pn:name="../src/lab3/nbit_parallel_load_shiftreg.vhd"/>
+      <outfile xil_pn:name="../src/lab3/nbit_shiftreg.vhd"/>
+      <outfile xil_pn:name="../test/lab3/four_bit_linear_shiftreg_tb.vhd"/>
+      <outfile xil_pn:name="../test/lab3/nbit_loadhold_triout_reg_tb.vhd"/>
+      <outfile xil_pn:name="../test/lab3/nbit_parallel_load_shiftreg_tb.vhd"/>
+      <outfile xil_pn:name="../test/lab3/nbit_shiftreg_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/AND.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/NAND.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/NOT.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/OR.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/T_flipflop.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/XOR.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/d_flipflop.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/d_flipflop_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_bit_LAC.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_bit_LAC_adder.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_bit_LAC_adder_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_bit_adder_subtractor.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_bit_adder_subtractor_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_bit_alu.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_bit_alu_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_bit_arithmetic_unit.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_bit_arithmetic_unit_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_bit_lac_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_bit_shifter.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_bit_shifter_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_input_mux.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_input_mux_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_input_nor_gate.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_input_nor_gate_test.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/full_adder.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/full_adder_test.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/half_adder.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/half_adder_test.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nand_gate_test.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_adder.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_adder_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_loadhold_reg.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_loadhold_reg_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_logic_unit.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_logic_unit_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_reg.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_reg_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_tristate_buff.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_tristate_buff_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_two_input_mux.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_two_input_mux_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_xor_contol.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_xor_control_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nor_gate.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nor_gate_test.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/one_bit_logic_slice.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/one_bit_logic_slice_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/shift_control_logic.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/shift_control_logic_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/shift_rotate.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/shift_rotate_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/t_flipflop_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/test_NOT.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/test_OR.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/test_XOR.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/test_two_input_and.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/three_input_or_gate.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/three_input_or_gate_test.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/tri_buff.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/tri_buff_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/two_input_multiplexer.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/two_input_multiplexer_test.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1510705982" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="3947613368044269604" xil_pn:start_ts="1510705982">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1510705982" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-8301820569898565850" xil_pn:start_ts="1510705982">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1510697577" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="7621793174340561755" xil_pn:start_ts="1510697577">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1510706382" xil_pn:in_ck="264093526013516119" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1510706382">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../src/lab3/four_bit_linear_feedback_shiftreg.vhd"/>
+      <outfile xil_pn:name="../src/lab3/nbit_loadhold_triout_reg.vhd"/>
+      <outfile xil_pn:name="../src/lab3/nbit_parallel_load_shiftreg.vhd"/>
+      <outfile xil_pn:name="../src/lab3/nbit_shiftreg.vhd"/>
+      <outfile xil_pn:name="../test/lab3/four_bit_linear_shiftreg_tb.vhd"/>
+      <outfile xil_pn:name="../test/lab3/nbit_loadhold_triout_reg_tb.vhd"/>
+      <outfile xil_pn:name="../test/lab3/nbit_parallel_load_shiftreg_tb.vhd"/>
+      <outfile xil_pn:name="../test/lab3/nbit_shiftreg_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/AND.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/NAND.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/NOT.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/OR.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/T_flipflop.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/XOR.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/d_flipflop.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/d_flipflop_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_bit_LAC.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_bit_LAC_adder.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_bit_LAC_adder_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_bit_adder_subtractor.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_bit_adder_subtractor_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_bit_alu.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_bit_alu_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_bit_arithmetic_unit.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_bit_arithmetic_unit_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_bit_lac_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_bit_shifter.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_bit_shifter_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_input_mux.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_input_mux_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_input_nor_gate.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/four_input_nor_gate_test.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/full_adder.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/full_adder_test.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/half_adder.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/half_adder_test.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nand_gate_test.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_adder.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_adder_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_loadhold_reg.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_loadhold_reg_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_logic_unit.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_logic_unit_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_reg.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_reg_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_tristate_buff.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_tristate_buff_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_two_input_mux.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_two_input_mux_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_xor_contol.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nbit_xor_control_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nor_gate.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/nor_gate_test.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/one_bit_logic_slice.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/one_bit_logic_slice_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/shift_control_logic.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/shift_control_logic_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/shift_rotate.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/shift_rotate_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/t_flipflop_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/test_NOT.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/test_OR.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/test_XOR.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/test_two_input_and.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/three_input_or_gate.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/three_input_or_gate_test.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/tri_buff.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/tri_buff_tb.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/two_input_multiplexer.vhd"/>
+      <outfile xil_pn:name="microprogram_cdp_test_VHDL/two_input_multiplexer_test.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1510706387" xil_pn:in_ck="264093526013516119" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="8569306829478840004" xil_pn:start_ts="1510706382">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="four_bit_linear_feedback_shiftreg_tb_beh.prj"/>
+      <outfile xil_pn:name="four_bit_linear_feedback_shiftreg_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1510706387" xil_pn:in_ck="4056427201125970364" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-7250823277521091887" xil_pn:start_ts="1510706387">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="four_bit_linear_feedback_shiftreg_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+    </transform>
+  </transforms>
+
+</generated_project>

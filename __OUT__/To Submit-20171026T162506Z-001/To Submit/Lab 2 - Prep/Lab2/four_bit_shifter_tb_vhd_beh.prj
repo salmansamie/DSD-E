@@ -1,6 +1,0 @@
-vhdl work "two_to_one_mux.vhd"
-vhdl work "four_input_mux.vhd"
-vhdl work "shift_rotate.vhd"
-vhdl work "shift_control_logic.vhd"
-vhdl work "four_bit_shifter.vhd"
-vhdl work "four_bit_shifter_tb.vhd"

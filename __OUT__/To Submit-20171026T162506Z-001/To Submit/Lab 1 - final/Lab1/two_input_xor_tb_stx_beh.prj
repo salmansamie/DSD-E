@@ -1,2 +1,0 @@
-vhdl isim_temp "two_input_xor.vhd"
-vhdl isim_temp "two_input_xor_tb.vhd"

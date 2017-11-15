@@ -53,8 +53,8 @@ begin
         wait for 100ns;
           assert(Sum="0000") report "c=01, a=0001, b=0101" severity error;
           assert(C_out='0') report "c=01, a=0001, b=0101" severity error;
-          InA <= "0101"
-          Control <= "11"          
+          InA <= "0101";
+          Control <= "11";          
         wait for 100ns;
           assert(Sum="0000") report "c=01, a=0101, b=0101" severity error;
           assert(C_out='0') report "c=01, a=0101, b=0101" severity error;

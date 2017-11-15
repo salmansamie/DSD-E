@@ -33,12 +33,12 @@ begin
     		InA <= "0011";  -- note double quotes for n-bit values
         InB <= "0101";
   		wait for 100 ns;
-        assert(Sum="1000") report "Fail c=0000, ina=0011, inb=0101" severity error;
+        assert(Sum="0110") report "Fail c=0000, ina=0011, inb=0101" severity error;
         assert(C_out='0') report "Fail c=0000, ina=0011, inb=0101" severity error;
-        C_in <= '1111';
+        C_terms <= "1111";
       wait for 100 ns;
-        assert(Sum="0111") report "Fail c=1111, ina=0011, inb=0101" severity error;
-        assert(C_out='1') report "Fail c=1111, ina=0011, inb=0101" severity error;
+        assert(Sum="1001") report "Fail c=1111, ina=0011, inb=0101" severity error;
+        assert(C_out='0') report "Fail c=1111, ina=0011, inb=0101" severity error;
   		wait;
     end process;
 

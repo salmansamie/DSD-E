@@ -12,6 +12,7 @@ end nbit_logic_unit_tb;
 
 architecture behavioural of nbit_logic_unit_tb is
   component nbit_logic_unit
+   Generic (n : positive := 4);
 	Port (	InA, InB : in std_logic_vector(3 downto 0);
 		    	Control : in std_logic_vector(1 downto 0);
 			 		Output : out std_logic_vector(3 downto 0));

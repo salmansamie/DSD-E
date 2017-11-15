@@ -21,9 +21,10 @@ architecture Behavioral of four_bit_LAC_adder is
   end component;
 
   component nbit_adder is
+	 Generic (n : positive := 4);
     Port (
-      InA, InB, C_terms : in std_logic_vector(3 downto 0);
-      Sum : out std_logic_vector(3 downto 0);
+      InA, InB, C_terms : in std_logic_vector(n-1 downto 0);
+      Sum : out std_logic_vector(n-1 downto 0);
       C_out : out std_logic
     );
   end component;
@@ -32,5 +33,5 @@ architecture Behavioral of four_bit_LAC_adder is
 
   begin
     fourBitLAC : four_bit_LAC port map (InA, InB, C_in, s0);
-    fourBitAdder : nbit_adder port map (InA, InB, s0, Sum, C_out);  
+    fourBitAdder : nbit_adder generic map (4) port map (InA, InB, s0, Sum, C_out);  
 end Behavioral;

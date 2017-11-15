@@ -1,7 +1,0 @@
-xst -intstyle ise -ifn "C:/Users/js317/Desktop/DSD/Lab1/two_input_nand.xst" -ofn "C:/Users/js317/Desktop/DSD/Lab1/two_input_nand.syr" 
-ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xa3s500e-ftg256-4 two_input_nand.ngc two_input_nand.ngd  
-map -intstyle ise -p xa3s500e-ftg256-4 -cm area -ir off -pr off -c 100 -o two_input_nand_map.ncd two_input_nand.ngd two_input_nand.pcf 
-par -w -intstyle ise -ol high -t 1 two_input_nand_map.ncd two_input_nand.ncd two_input_nand.pcf 
-trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml two_input_nand.twx two_input_nand.ncd -o two_input_nand.twr two_input_nand.pcf 
-vhdtdtfi -lib work two_input_nand.vhd -prj Lab1 -o two_input_nand.spl -module two_input_nand -template C:/Xilinx/14.7/ISE_DS/ISE//data/splfile.tft -deleteonerror 
-spl2sym -intstyle ise -family aspartan3e two_input_nand.spl C:/Users/js317/Desktop/DSD/Lab1/two_input_nand.sym 

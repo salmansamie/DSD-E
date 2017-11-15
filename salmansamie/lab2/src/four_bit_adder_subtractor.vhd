@@ -14,6 +14,7 @@ end four_bit_adder_subtractor;
 
 architecture Behavioral of four_bit_adder_subtractor is
   component nbit_xor_contol is
+	 Generic ( n : positive := 4 );
     Port (
       Input : in std_logic_vector(n-1 downto 0);
       control : in std_logic;

@@ -1,0 +1,10 @@
+Command line:
+   four_bit_linear_feedback_shiftreg_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  52554
+
+Wed Nov 15 00:39:49 2017
+
+
+ Elaboration Time: 0.0625 sec
