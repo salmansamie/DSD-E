@@ -1,6 +1,0 @@
-vhdl work "microprogram_cdp_test_VHDL/d_flipflop.vhd"
-vhdl work "microprogram_cdp_test_VHDL/nbit_reg.vhd"
-vhdl work "../src/lab3/nbit_shiftreg.vhd"
-vhdl work "microprogram_cdp_test_VHDL/XOR.vhd"
-vhdl work "../src/lab3/four_bit_linear_feedback_shiftreg.vhd"
-vhdl work "../test/lab3/four_bit_linear_shiftreg_tb.vhd"

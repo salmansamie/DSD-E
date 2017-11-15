@@ -8,8 +8,12 @@ louiraj/Lab2/src/4-bit Adder
 louiraj/Lab2/test/4-bit Adder
 louiraj/Lab2/test/4-bit Adder:SubtractorTest.vhd
 louiraj/Lab2/src/4-bit Adder:Subtractor.vhd
-
-
-
-
-
+!.gitignore
+!*.prj
+!*.xise
+!*.vhd
+!*.docx
+!*.ucf
+!src
+!test
+!constrains

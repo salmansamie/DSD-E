@@ -1,0 +1,10 @@
+Command line:
+   nbit_parallel_load_shiftreg_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54287
+
+Wed Nov 15 15:13:58 2017
+
+
+ Elaboration Time: 0.109375 sec
