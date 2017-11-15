@@ -8,7 +8,7 @@
 <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.    -->
 
 <messages>
-<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/neoke/Desktop/DSD-E/for_testing_submission/test/lab3/nbit_parallel_load_shiftreg_tb.vhd&quot; into library work</arg>
+<msg type="info" file="ProjectMgmt" num="1061" ><arg fmt="%s" index="1">Parsing VHDL file &quot;C:/Users/neoke/Desktop/DSD-E/for_testing_submission/test/lab3/four_bit_linear_shiftreg_tb.vhd&quot; into library work</arg>
 </msg>
 
 </messages>
