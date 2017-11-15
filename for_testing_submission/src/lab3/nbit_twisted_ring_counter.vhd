@@ -17,31 +17,27 @@ library IEEE;
 
  architecture Behavioral of nbit_twisted_ring_conter is
 
- component nbit_two_input_mux
- generic(n:positive:=8);
- Port (	InA, InB : in std_logic_vector(n-1 downto 0);
-         Control : in std_logic;
-         Output : out std_logic_vector(n-1 downto 0));
- end component;
+component not_gate is
+	Port (a: in std_logic; 
+	      f: out std_logic);
+end component;
 
- component nbit_reg
- generic(n:positive:=8);
- Port ( Dinputs : in STD_LOGIC_VECTOR (n-1 downto 0);
-     CLK : in STD_LOGIC;
-     reset : in STD_LOGIC;
-     preset : in STD_LOGIC;
-     q : out STD_LOGIC_VECTOR (n-1 downto 0);
-     qnot : out STD_LOGIC_VECTOR (n-1 downto 0));
- end component;
+component nbit_shiftreg is
+	generic (n : positive := 8);
+    Port ( shift_in : in std_logic;
+           CLK : in std_logic;
+           reset : in std_logic;
+           preset : in std_logic;
+           Q_shift : out std_logic_vector(n-1 downto 0));
+end component;
 
- signal feedback:std_logic_vector(n downto 0);
- signal muxToReg, dummy:std_logic_vector(n-1 downto 0);
+ signal not_to_shiftreg : std_logic;
+ signal feedback : std_logic_vector(n-1 downto 0);
 
  begin
 
- feedback(0) <= shiftin;
- mux: nbit_two_input_mux port map(feedback(n-1 downto 0),dinputs, loadshift, muxToReg);
- reg: nbit_reg port map(muxToReg,CLK, reset, preset, feedback(n downto 1), dummy);
- qoutputs <= feedback(n downto 1);
+ reg: nbit_shiftreg generic map (n) port map(not_to_shiftreg, CLK, reset, preset, feedback(n-1 downto 0));
+ ngate: not_gate port map (feedback(n-1), not_to_shiftreg);
+ qoutputs <= feedback(n-1 downto 0);
 
  end Behavioral;
