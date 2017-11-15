@@ -1,0 +1,29 @@
+Command line:
+   tri_buff_tb_vhd_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54817
+
+Wed Nov 15 18:16:35 2017
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 842.629 Meg
+
+ Total Signals          : 6
+ Total Nets             : 3
+ Total Signal Drivers   : 3
+ Total Blocks           : 6
+ Total Primitive Blocks : 5
+ Total Processes        : 2
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 504
+Total Line Count : 14
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 685.343 Meg
+
+Wed Nov 15 18:20:07 2017
+

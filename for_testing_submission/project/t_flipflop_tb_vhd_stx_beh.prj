@@ -1,0 +1,2 @@
+vhdl isim_temp "microprogram_cdp_test_VHDL/T_flipflop.vhd"
+vhdl isim_temp "microprogram_cdp_test_VHDL/t_flipflop_tb.vhd"

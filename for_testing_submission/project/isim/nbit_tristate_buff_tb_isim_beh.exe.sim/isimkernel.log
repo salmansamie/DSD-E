@@ -1,0 +1,29 @@
+Command line:
+   nbit_tristate_buff_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54858
+
+Wed Nov 15 18:29:25 2017
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 842.039 Meg
+
+ Total Signals          : 18
+ Total Nets             : 9
+ Total Signal Drivers   : 6
+ Total Blocks           : 13
+ Total Primitive Blocks : 7
+ Total Processes        : 5
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 392
+Total Line Count : 19
+
+ Total Simulation Time: 0.046875 sec
+
+ Current Memory Usage: 842.039 Meg
+
+Wed Nov 15 18:29:40 2017
+

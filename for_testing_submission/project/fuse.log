@@ -1,36 +1,19 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/nbit_parallel_load_shiftreg_tb_isim_beh.exe -prj C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/nbit_parallel_load_shiftreg_tb_beh.prj work.nbit_parallel_load_shiftreg_tb 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/d_flipflop_tb_isim_beh.exe -prj C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/d_flipflop_tb_beh.prj work.d_flipflop_tb 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
-Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/microprogram_cdp_test_VHDL/OR.vhd" into library work
-Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/microprogram_cdp_test_VHDL/NOT.vhd" into library work
-Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/microprogram_cdp_test_VHDL/AND.vhd" into library work
-Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/microprogram_cdp_test_VHDL/two_input_multiplexer.vhd" into library work
 Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/microprogram_cdp_test_VHDL/d_flipflop.vhd" into library work
-Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/microprogram_cdp_test_VHDL/nbit_two_input_mux.vhd" into library work
-Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/microprogram_cdp_test_VHDL/nbit_reg.vhd" into library work
-Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/../src/lab3/nbit_parallel_load_shiftreg.vhd" into library work
-Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/../test/lab3/nbit_parallel_load_shiftreg_tb.vhd" into library work
+Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/microprogram_cdp_test_VHDL/d_flipflop_tb.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling package standard
 Compiling package std_logic_1164
-Compiling package std_logic_arith
-Compiling package std_logic_unsigned
-Compiling package numeric_std
-Compiling architecture not_architecture of entity not_gate [not_gate_default]
-Compiling architecture and_architecture of entity and_gate [and_gate_default]
-Compiling architecture and_architecture of entity or_gate [or_gate_default]
-Compiling architecture multi_component_two_input_multiplexer_arch of entity two_input_multiplexer [two_input_multiplexer_default]
-Compiling architecture behavioral of entity nbit_two_input_mux [\nbit_two_input_mux(8)\]
 Compiling architecture behavioural of entity d_flipflop [d_flipflop_default]
-Compiling architecture behavioural of entity nbit_reg [\nbit_reg(8)\]
-Compiling architecture behavioral of entity nbit_parallel_load_shiftreg [\nbit_parallel_load_shiftreg(8)\]
-Compiling architecture behavior of entity nbit_parallel_load_shiftreg_tb
+Compiling architecture behavior of entity d_flipflop_tb
 Time Resolution for simulation is 1ps.
-Waiting for 6 sub-compilation(s) to finish...
-Compiled 22 VHDL Units
-Built simulation executable C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/nbit_parallel_load_shiftreg_tb_isim_beh.exe
-Fuse Memory Usage: 36516 KB
-Fuse CPU Usage: 749 ms
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 5 VHDL Units
+Built simulation executable C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/d_flipflop_tb_isim_beh.exe
+Fuse Memory Usage: 29452 KB
+Fuse CPU Usage: 530 ms

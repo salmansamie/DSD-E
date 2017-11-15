@@ -1,0 +1,1 @@
+vhdl isim_temp "../test/lab3/nbit_twisted_ring_counter_tb.vhd"

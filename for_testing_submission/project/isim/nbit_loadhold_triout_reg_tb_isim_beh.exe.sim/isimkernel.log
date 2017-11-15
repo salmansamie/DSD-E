@@ -1,0 +1,29 @@
+Command line:
+   nbit_loadhold_triout_reg_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  54867
+
+Wed Nov 15 18:31:22 2017
+
+
+ Elaboration Time: 0.046875 sec
+
+ Current Memory Usage: 841.994 Meg
+
+ Total Signals          : 144
+ Total Nets             : 37
+ Total Signal Drivers   : 33
+ Total Blocks           : 49
+ Total Primitive Blocks : 27
+ Total Processes        : 26
+ Total Traceable Variables  : 29
+ Total Scalar Nets and Variables : 434
+Total Line Count : 105
+
+ Total Simulation Time: 0.078125 sec
+
+ Current Memory Usage: 841.994 Meg
+
+Wed Nov 15 18:31:36 2017
+
