@@ -17,6 +17,7 @@ entity nTw_ring_counter is
             );
 end entity nTw_ring_counter ;
 
+--Defining architecture
 architecture Behavioural of nTw_ring_counter is
     -- Internal counter signal
     signal count_int : std_logic_vector (0 to n -1) ;
