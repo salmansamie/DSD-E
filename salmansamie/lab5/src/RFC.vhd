@@ -17,6 +17,18 @@ entity RFC is
 end RFC;
 
 architecture Behavioural of RFC is
+    -- two_input_multiplexer is for Write Enable WE
+    component two_input_multiplexer is
+        Port(
+            s_in :in std_logic; 
+            a : in std_logic;
+            b : in std_logic;
+            f : out std_logic
+            );
+    end component;
+
+
+
 
 end Behavioural; 
 
