@@ -17,10 +17,6 @@ entity RFC is
 end RFC;
 
 architecture Behavioural of RFC is
-    begin
-        process(CLK)
-            begin
-                if (rising_edge(CLK)) then
-                    if (WE = '1') then
-                        REA <= DIN;
-                        
+
+end Behavioural; 
+
