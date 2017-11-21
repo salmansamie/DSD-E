@@ -2,10 +2,7 @@
 --Email: salman.rahman@se14.qmul.ac.uk
 --Description: RFC
 
--- In this one I have imported d_flip_flop_NO_RST
--- since we need a D-flip-flop without an async reset.
-
--- all imported previous lab components are functional and working
+-- All imported previous lab components are functional and working
 
 library ieee;
 use ieee.std_logic_1164.all;
@@ -25,7 +22,8 @@ end RFC;
 
 -- The function of RFC is defined in the architecture below
 architecture Behavioural of RFC is
-    -- from Lab1: two_input_multiplexer represents for Write Enable WE
+    --from Lab1: from Okeke Nnadozie
+    --two_input_multiplexer represents for Write Enable WE
     component two_input_multiplexer is
         Port(
             s_in :in std_logic;
@@ -35,7 +33,8 @@ architecture Behavioural of RFC is
             );
     end component;
 
-    --from Lab3: tri_buff represents for REA and REB 
+    --from Lab3: from Okeke Nnadozie
+    --tri_buff represents for REA and REB 
     component tri_buff is
         Port (
             Input : in std_logic;
@@ -44,8 +43,14 @@ architecture Behavioural of RFC is
             );
     end component;
 
-    --from Lab3: this will 
-
+    --from lab3: from Simran Kaur Phul
+    --d
+    component d_flipflop is
+        Port(
+            d, clk, reset, preset : in std_logic;
+            q,qnot: out std_logic
+            );
+    end component;
 
 
 
