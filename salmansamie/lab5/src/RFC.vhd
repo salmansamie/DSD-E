@@ -14,7 +14,7 @@ entity RFC is
         OA  : out std_logic_1164;
         OB  : out std_logic_1164
         );
-end entity;
+end RFC;
 
 architecture Behavioural of RFC is
     begin
@@ -22,4 +22,5 @@ architecture Behavioural of RFC is
             begin
                 if (rising_edge(CLK)) then
                     if (WE = '1') then
-                        DIN
+                        REA <= DIN;
+                        
