@@ -19,7 +19,7 @@ Port ( Data_in : in STD_LOGIC;
 end static_RAM_cell;  
 
 architecture Behavioral of static_RAM_cell is  
-component D_flipflop is  
+component d_flipflop is  
 Port (d, clk, reset, preset : in std_logic;  
 	q,qnot: out std_logic);  
 end component;  
@@ -41,7 +41,7 @@ begin
 	ANDIT: and_gate Port map (Write_enable, Cell_select, clk_sig ) ; 
 	-- decides whether output is read or write   
 	
-	DIT: D_flipflop Port map (Data_in,clk_sig,'0' , '0', Q_sig, dummy ) ; 
+	DIT: d_flipflop Port map (Data_in,clk_sig,'0' , '0', Q_sig, dummy ) ; 
 	-- holds value at Q  
 	
 	TRI_IT: tri_buff Port map (Q_sig, Cell_select, Data_out ); 
