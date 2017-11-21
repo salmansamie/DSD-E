@@ -34,9 +34,9 @@ architecture Behavioural of RFC is
     end component;
 
     --from Lab3: from Okeke Nnadozie
-    --tri_buff represents for REA and REB 
+    --Tri State Buffer (tri_buff) represents for REA and REB 
     component tri_buff is
-        Port (
+        Port(
             Input : in std_logic;
             enable : in std_logic;
             Output : out std_logic
@@ -44,15 +44,22 @@ architecture Behavioural of RFC is
     end component;
 
     --from lab3: from Simran Kaur Phul
-    --d
+    --d_flipflop is the essential since RFC is built around this component
     component d_flipflop is
         Port(
             d, clk, reset, preset : in std_logic;
-            q,qnot: out std_logic
+            q, qnot: out std_logic
             );
     end component;
 
+    -- Now map all these components and ports to signals
+    signal feedback, muxToFF, ffOut, dummy: STD_LOGIC;
 
+    begin
+        newMux: two_input_multiplexer Port map(ffOut, DIN, WE, muxToFF);
+        newFF: d_flipflop Port map(muxToFF, CLK, '0', '0', ffOut, dummy);
+        bufferOne: tri_buff Port map(ffOut, REA, OA);
+        bufferTwo: tri_buff Port map(ffOut, REB, OB);
 
 end Behavioural; 
 
