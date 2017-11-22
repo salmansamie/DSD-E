@@ -1,0 +1,476 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.12 secs
+ 
+--> Reading design: modm_async_count.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "modm_async_count.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "modm_async_count"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-ft256
+
+---- Source Options
+Top Module Name                    : modm_async_count
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "E:/for_testing_submission/project/microprogram_cdp_test_VHDL/d_flipflop.vhd" in Library work.
+Architecture behavioural of Entity d_flipflop is up to date.
+Compiling vhdl file "E:/for_testing_submission/project/microprogram_cdp_test_VHDL/half_adder.vhd" in Library work.
+Architecture low_level_half_adder of Entity half_adder is up to date.
+Compiling vhdl file "E:/for_testing_submission/src/lab4/nbit_incrementer.vhd" in Library work.
+Architecture behavioral of Entity nbit_incrementer is up to date.
+Compiling vhdl file "E:/for_testing_submission/project/microprogram_cdp_test_VHDL/nbit_reg.vhd" in Library work.
+Architecture behavioural of Entity nbit_reg is up to date.
+Compiling vhdl file "E:/for_testing_submission/src/lab4/eight_bit_comparator.vhd" in Library work.
+Architecture behavioral of Entity eight_bit_comparator is up to date.
+Compiling vhdl file "E:/for_testing_submission/project/microprogram_cdp_test_VHDL/OR.vhd" in Library work.
+Architecture and_architecture of Entity or_gate is up to date.
+Compiling vhdl file "E:/for_testing_submission/src/lab4/nbit_count_enable.vhd" in Library work.
+Entity <nbit_count_enable> compiled.
+Entity <nbit_count_enable> (Architecture <Behavioral>) compiled.
+Compiling vhdl file "E:/for_testing_submission/src/lab4/modm_async_count.vhd" in Library work.
+Entity <modm_async_count> compiled.
+Entity <modm_async_count> (Architecture <Behavioral>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <modm_async_count> in library <work> (architecture <Behavioral>) with generics.
+	n = 8
+
+Analyzing hierarchy for entity <eight_bit_comparator> in library <work> (architecture <behavioral>) with generics.
+	n = 8
+
+Analyzing hierarchy for entity <or_gate> in library <work> (architecture <and_architecture>).
+
+Analyzing hierarchy for entity <nbit_count_enable> in library <work> (architecture <Behavioral>) with generics.
+	n = 8
+
+Analyzing hierarchy for entity <nbit_incrementer> in library <work> (architecture <behavioral>) with generics.
+	n = 8
+
+Analyzing hierarchy for entity <nbit_reg> in library <work> (architecture <behavioural>) with generics.
+	n = 8
+
+Analyzing hierarchy for entity <half_adder> in library <work> (architecture <low_level_half_adder>).
+
+Analyzing hierarchy for entity <d_flipflop> in library <work> (architecture <behavioural>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing generic Entity <modm_async_count> in library <work> (Architecture <Behavioral>).
+	n = 8
+WARNING:Xst:753 - "E:/for_testing_submission/src/lab4/modm_async_count.vhd" line 64: Unconnected output port 'ripple_carry_out' of component 'nbit_count_enable'.
+Entity <modm_async_count> analyzed. Unit <modm_async_count> generated.
+
+Analyzing generic Entity <eight_bit_comparator> in library <work> (Architecture <behavioral>).
+	n = 8
+Entity <eight_bit_comparator> analyzed. Unit <eight_bit_comparator> generated.
+
+Analyzing Entity <or_gate> in library <work> (Architecture <and_architecture>).
+Entity <or_gate> analyzed. Unit <or_gate> generated.
+
+Analyzing generic Entity <nbit_count_enable> in library <work> (Architecture <Behavioral>).
+	n = 8
+Entity <nbit_count_enable> analyzed. Unit <nbit_count_enable> generated.
+
+Analyzing generic Entity <nbit_incrementer> in library <work> (Architecture <behavioral>).
+	n = 8
+Entity <nbit_incrementer> analyzed. Unit <nbit_incrementer> generated.
+
+Analyzing Entity <half_adder> in library <work> (Architecture <low_level_half_adder>).
+Entity <half_adder> analyzed. Unit <half_adder> generated.
+
+Analyzing generic Entity <nbit_reg> in library <work> (Architecture <behavioural>).
+	n = 8
+Entity <nbit_reg> analyzed. Unit <nbit_reg> generated.
+
+Analyzing Entity <d_flipflop> in library <work> (Architecture <behavioural>).
+Entity <d_flipflop> analyzed. Unit <d_flipflop> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <eight_bit_comparator>.
+    Related source file is "E:/for_testing_submission/src/lab4/eight_bit_comparator.vhd".
+    Found 8-bit comparator equal for signal <Output$cmp_eq0000> created at line 37.
+    Summary:
+	inferred   1 Comparator(s).
+Unit <eight_bit_comparator> synthesized.
+
+
+Synthesizing Unit <or_gate>.
+    Related source file is "E:/for_testing_submission/project/microprogram_cdp_test_VHDL/OR.vhd".
+Unit <or_gate> synthesized.
+
+
+Synthesizing Unit <half_adder>.
+    Related source file is "E:/for_testing_submission/project/microprogram_cdp_test_VHDL/half_adder.vhd".
+Unit <half_adder> synthesized.
+
+
+Synthesizing Unit <d_flipflop>.
+    Related source file is "E:/for_testing_submission/project/microprogram_cdp_test_VHDL/d_flipflop.vhd".
+INFO:Xst:1608 - Relative priorities of control signals on register <qnot> differ from those commonly found in the selected device family. This will result in additional logic around the register.
+    Found 1-bit register for signal <qnot>.
+    Found 1-bit register for signal <q>.
+    Summary:
+	inferred   2 D-type flip-flop(s).
+Unit <d_flipflop> synthesized.
+
+
+Synthesizing Unit <nbit_incrementer>.
+    Related source file is "E:/for_testing_submission/src/lab4/nbit_incrementer.vhd".
+Unit <nbit_incrementer> synthesized.
+
+
+Synthesizing Unit <nbit_reg>.
+    Related source file is "E:/for_testing_submission/project/microprogram_cdp_test_VHDL/nbit_reg.vhd".
+Unit <nbit_reg> synthesized.
+
+
+Synthesizing Unit <nbit_count_enable>.
+    Related source file is "E:/for_testing_submission/src/lab4/nbit_count_enable.vhd".
+WARNING:Xst:646 - Signal <dummy> is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+Unit <nbit_count_enable> synthesized.
+
+
+Synthesizing Unit <modm_async_count>.
+    Related source file is "E:/for_testing_submission/src/lab4/modm_async_count.vhd".
+Unit <modm_async_count> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 16
+ 1-bit register                                        : 16
+# Comparators                                          : 1
+ 8-bit comparator equal                                : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 16
+ Flip-Flops                                            : 16
+# Comparators                                          : 1
+ 8-bit comparator equal                                : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <modm_async_count> ...
+
+Optimizing unit <nbit_incrementer> ...
+
+Optimizing unit <nbit_reg> ...
+WARNING:Xst:2677 - Node <newCounter/reg/inst[7].d_flipflop_i/qnot> of sequential type is unconnected in block <modm_async_count>.
+WARNING:Xst:2677 - Node <newCounter/reg/inst[6].d_flipflop_i/qnot> of sequential type is unconnected in block <modm_async_count>.
+WARNING:Xst:2677 - Node <newCounter/reg/inst[5].d_flipflop_i/qnot> of sequential type is unconnected in block <modm_async_count>.
+WARNING:Xst:2677 - Node <newCounter/reg/inst[4].d_flipflop_i/qnot> of sequential type is unconnected in block <modm_async_count>.
+WARNING:Xst:2677 - Node <newCounter/reg/inst[3].d_flipflop_i/qnot> of sequential type is unconnected in block <modm_async_count>.
+WARNING:Xst:2677 - Node <newCounter/reg/inst[2].d_flipflop_i/qnot> of sequential type is unconnected in block <modm_async_count>.
+WARNING:Xst:2677 - Node <newCounter/reg/inst[1].d_flipflop_i/qnot> of sequential type is unconnected in block <modm_async_count>.
+WARNING:Xst:2677 - Node <newCounter/reg/inst[0].d_flipflop_i/qnot> of sequential type is unconnected in block <modm_async_count>.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block modm_async_count, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 8
+ Flip-Flops                                            : 8
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : modm_async_count.ngr
+Top Level Output File Name         : modm_async_count
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 19
+
+Cell Usage :
+# BELS                             : 18
+#      GND                         : 1
+#      LUT2                        : 3
+#      LUT2_L                      : 1
+#      LUT3                        : 2
+#      LUT3_L                      : 1
+#      LUT4                        : 9
+#      LUT4_D                      : 1
+# FlipFlops/Latches                : 8
+#      FDCP                        : 8
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 18
+#      IBUF                        : 10
+#      OBUF                        : 8
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500eft256-4 
+
+ Number of Slices:                        9  out of   4656     0%  
+ Number of Slice Flip Flops:              8  out of   9312     0%  
+ Number of 4 input LUTs:                 17  out of   9312     0%  
+ Number of IOs:                          19
+ Number of bonded IOBs:                  19  out of    190    10%  
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 8     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+--------------------------------------------+-------+
+Control Signal                     | Buffer(FF name)                            | Load  |
+-----------------------------------+--------------------------------------------+-------+
+N0(XST_GND:G)                      | NONE(newCounter/reg/inst[0].d_flipflop_i/q)| 8     |
+or_to_counter(newOr/f151:O)        | NONE(newCounter/reg/inst[0].d_flipflop_i/q)| 8     |
+-----------------------------------+--------------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 3.602ns (Maximum Frequency: 277.624MHz)
+   Minimum input arrival time before clock: 4.318ns
+   Maximum output required time after clock: 4.571ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 3.602ns (frequency: 277.624MHz)
+  Total number of paths / destination ports: 36 / 8
+-------------------------------------------------------------------------
+Delay:               3.602ns (Levels of Logic = 2)
+  Source:            newCounter/reg/inst[0].d_flipflop_i/q (FF)
+  Destination:       newCounter/reg/inst[4].d_flipflop_i/q (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: newCounter/reg/inst[0].d_flipflop_i/q to newCounter/reg/inst[4].d_flipflop_i/q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCP:C->Q             6   0.591   0.673  newCounter/reg/inst[0].d_flipflop_i/q (newCounter/reg/inst[0].d_flipflop_i/q)
+     LUT4_D:I3->O          4   0.704   0.622  newCounter/inc/inst[2].if1.A/c1 (newCounter/inc/carryouttob<2>)
+     LUT3:I2->O            1   0.704   0.000  newCounter/inc/inst[4].if1.A/s1 (newCounter/next_state<4>)
+     FDCP:D                    0.308          newCounter/reg/inst[4].d_flipflop_i/q
+    ----------------------------------------
+    Total                      3.602ns (2.307ns logic, 1.295ns route)
+                                       (64.0% logic, 36.0% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              4.318ns (Levels of Logic = 3)
+  Source:            countEnable (PAD)
+  Destination:       newCounter/reg/inst[4].d_flipflop_i/q (FF)
+  Destination Clock: CLK rising
+
+  Data Path: countEnable to newCounter/reg/inst[4].d_flipflop_i/q
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             4   1.218   0.762  countEnable_IBUF (countEnable_IBUF)
+     LUT4_D:I0->O          4   0.704   0.622  newCounter/inc/inst[2].if1.A/c1 (newCounter/inc/carryouttob<2>)
+     LUT3:I2->O            1   0.704   0.000  newCounter/inc/inst[4].if1.A/s1 (newCounter/next_state<4>)
+     FDCP:D                    0.308          newCounter/reg/inst[4].d_flipflop_i/q
+    ----------------------------------------
+    Total                      4.318ns (2.934ns logic, 1.384ns route)
+                                       (67.9% logic, 32.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 8 / 8
+-------------------------------------------------------------------------
+Offset:              4.571ns (Levels of Logic = 1)
+  Source:            newCounter/reg/inst[3].d_flipflop_i/q (FF)
+  Destination:       Q_Out<3> (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: newCounter/reg/inst[3].d_flipflop_i/q to Q_Out<3>
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDCP:C->Q             7   0.591   0.708  newCounter/reg/inst[3].d_flipflop_i/q (newCounter/reg/inst[3].d_flipflop_i/q)
+     OBUF:I->O                 3.272          Q_Out_3_OBUF (Q_Out<3>)
+    ----------------------------------------
+    Total                      4.571ns (3.863ns logic, 0.708ns route)
+                                       (84.5% logic, 15.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 10.00 secs
+Total CPU time to Xst completion: 10.86 secs
+ 
+--> 
+
+Total memory usage is 258428 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   10 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=E:\for_testing_submission\project\microprogram_cdp_test_VHDL\impact.xsl
+OUTFILE=E:\for_testing_submission\project\microprogram_cdp_test_VHDL\impact.xsl
+FAMILY=Multiple
+PART=Multiple
+WORKINGDIR=E:\for_testing_submission\project\microprogram_cdp_test_VHDL
+LICENSE=iMPACT
+USER_INFO=iMPACT

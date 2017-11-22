@@ -1,0 +1,94 @@
+
+****** PlanAhead v14.7 (64-bit)
+  **** Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+    ** Copyright 1986-1999, 2001-2013 Xilinx, Inc. All Rights Reserved.
+
+INFO: [Common 17-78] Attempting to get a license: PlanAhead
+INFO: [Common 17-290] Got license for PlanAhead
+INFO: [Device 21-36] Loading parts and site information from C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/arch.xml
+Parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+Finished parsing RTL primitives file [C:/Xilinx/14.7/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
+start_gui
+source E:/for_testing_submission/project/pa.fromNetlist.tcl
+# create_project -name microprogram_cdp_test_VHDL -dir "E:/for_testing_submission/project/planAhead_run_1" -part xc3s500eft256-4
+# set_property design_mode GateLvl [get_property srcset [current_run -impl]]
+# set_property edif_top_file "E:/for_testing_submission/project/four_bit_updown_counter.ngc" [ get_property srcset [ current_run ] ]
+# add_files -norecurse { {E:/for_testing_submission/project} }
+# set_param project.pinAheadLayout  yes
+# set_property target_constrs_file "E:/for_testing_submission/project/microprogram_cdp_test_VHDL/four_bit_updown_counter.ucf" [current_fileset -constrset]
+Adding file 'E:/for_testing_submission/project/microprogram_cdp_test_VHDL/four_bit_updown_counter.ucf' to fileset 'constrs_1'
+# add_files [list {E:/for_testing_submission/project/microprogram_cdp_test_VHDL/four_bit_updown_counter.ucf}] -fileset [get_property constrset [current_run]]
+# link_design
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+Design is defaulting to project part: xc3s500eft256-4
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design four_bit_updown_counter.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   four_bit_updown_counter.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file four_bit_updown_counter.edif ...
+ngc2edif: Total memory usage is 79076 kilobytes
+
+Parsing EDIF File [./planAhead_run_1/microprogram_cdp_test_VHDL.data/cache/four_bit_updown_counter_ngc_zx.edif]
+Finished Parsing EDIF File [./planAhead_run_1/microprogram_cdp_test_VHDL.data/cache/four_bit_updown_counter_ngc_zx.edif]
+INFO: [Designutils 20-910] Reading macro library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
+Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Finished Parsing EDIF File [C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
+Loading clock regions from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockRegion.xml
+Loading clock buffers from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ClockBuffers.xml
+Loading package from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ft256/Package.xml
+Loading io standards from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/IOStandards.xml
+INFO: [Device 21-19] Loading pkg sso from C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/xc3s500e/ft256/SSORules.xml
+Loading list of drcs for the architecture : C:/Xilinx/14.7/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
+INFO: [Timing 38-77] Reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+INFO: [Timing 38-34] Done reading timing library C:/Xilinx/14.7/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
+Parsing UCF File [E:/for_testing_submission/project/microprogram_cdp_test_VHDL/four_bit_updown_counter.ucf]
+Finished Parsing UCF File [E:/for_testing_submission/project/microprogram_cdp_test_VHDL/four_bit_updown_counter.ucf]
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Phase 0 | Netlist Checksum: 3393fae7
+link_design: Time (s): elapsed = 00:00:09 . Memory (MB): peak = 525.051 ; gain = 112.434
+startgroup
+set_property package_pin A10 [get_ports CLK]
+endgroup
+startgroup
+set_property package_pin C13 [get_ports reset]
+endgroup
+startgroup
+set_property package_pin C12 [get_ports downUp]
+endgroup
+startgroup
+set_property package_pin C11 [get_ports {Q_output[0]}]
+endgroup
+startgroup
+set_property package_pin D11 [get_ports {Q_output[1]}]
+endgroup
+startgroup
+set_property package_pin B11 [get_ports {Q_output[2]}]
+endgroup
+startgroup
+set_property package_pin A12 [get_ports {Q_output[3]}]
+endgroup
+startgroup
+set_property package_pin J11 [get_ports {N_count[0]}]
+endgroup
+startgroup
+set_property package_pin J12 [get_ports {N_count[1]}]
+endgroup
+startgroup
+set_property package_pin H16 [get_ports {N_count[2]}]
+endgroup
+startgroup
+set_property package_pin H13 [get_ports {N_count[3]}]
+endgroup
+save_constraints
+exit
+ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
+INFO: [Common 17-206] Exiting PlanAhead at Wed Nov 22 16:43:06 2017...
+INFO: [Common 17-83] Releasing license: PlanAhead

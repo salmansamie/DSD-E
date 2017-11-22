@@ -1,0 +1,8 @@
+vhdl work "E:\for_testing_submission\project\microprogram_cdp_test_VHDL\half_adder.vhd"
+vhdl work "E:\for_testing_submission\project\microprogram_cdp_test_VHDL\d_flipflop.vhd"
+vhdl work "E:\for_testing_submission\src\lab4\nbit_incrementer.vhd"
+vhdl work "E:\for_testing_submission\project\microprogram_cdp_test_VHDL\nbit_reg.vhd"
+vhdl work "E:\for_testing_submission\src\lab4\nbit_count_enable.vhd"
+vhdl work "E:\for_testing_submission\src\lab4\eight_bit_comparator.vhd"
+vhdl work "E:\for_testing_submission\project\microprogram_cdp_test_VHDL\OR.vhd"
+vhdl work "E:\for_testing_submission\src\lab4\modm_async_count.vhd"

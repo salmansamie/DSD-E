@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <!--This is an ISE project configuration file.-->
 <!--It holds project specific layout data for the projectmgr plugin.-->
 <!--Copyright (c) 1995-2009 Xilinx, Inc.  All rights reserved.-->
@@ -10,43 +10,80 @@
          <ClosedNode>/four_bit_LAC_adder - Behavioral C:|Users|neoke|Desktop|DSD-E|for_testing_submission|project|microprogram_cdp_test_VHDL|four_bit_LAC_adder.vhd</ClosedNode>
          <ClosedNode>/four_bit_adder_subtractor - Behavioral C:|Users|neoke|Desktop|DSD-E|for_testing_submission|project|microprogram_cdp_test_VHDL|four_bit_adder_subtractor.vhd</ClosedNode>
          <ClosedNode>/four_bit_alu - Behavioral C:|Users|neoke|Desktop|DSD-E|for_testing_submission|project|microprogram_cdp_test_VHDL|four_bit_alu.vhd</ClosedNode>
+         <ClosedNode>/four_bit_alu - Behavioral E:|for_testing_submission|project|microprogram_cdp_test_VHDL|four_bit_alu.vhd</ClosedNode>
          <ClosedNode>/four_bit_arithmetic_unit - Behavioral C:|Users|neoke|Desktop|DSD-E|for_testing_submission|project|microprogram_cdp_test_VHDL|four_bit_arithmetic_unit.vhd</ClosedNode>
          <ClosedNode>/four_bit_linear_feedback_shiftreg - Behavioral C:|Users|neoke|Desktop|DSD-E|for_testing_submission|src|lab3|four_bit_linear_feedback_shiftreg.vhd</ClosedNode>
+         <ClosedNode>/four_bit_linear_feedback_shiftreg - Behavioral E:|for_testing_submission|project|microprogram_cdp_test_VHDL|four_bit_linear_feedback_shiftreg.vhd</ClosedNode>
+         <ClosedNode>/four_bit_linear_feedback_shiftreg - Behavioral E:|for_testing_submission|project|microprogram_cdp_test_VHDL|four_bit_linear_feedback_shiftreg.vhd/reg - nbit_shiftreg - Behavioral</ClosedNode>
          <ClosedNode>/four_bit_shifter - Behavioral C:|Users|neoke|Desktop|DSD-E|for_testing_submission|project|microprogram_cdp_test_VHDL|four_bit_shifter.vhd</ClosedNode>
+         <ClosedNode>/four_bit_shifter - Behavioral E:|for_testing_submission|project|microprogram_cdp_test_VHDL|four_bit_shifter.vhd</ClosedNode>
+         <ClosedNode>/four_bit_shifter - Behavioral E:|for_testing_submission|project|microprogram_cdp_test_VHDL|four_bit_shifter.vhd/shift_device - shift_rotate - Behavioral</ClosedNode>
+         <ClosedNode>/four_bit_synchronous_counter - behavioural E:|for_testing_submission|src|lab4|four_bit_synchronous_counter.vhd</ClosedNode>
+         <ClosedNode>/four_bit_synchronous_counter - behavioural E:|for_testing_submission|src|lab4|four_bit_synchronous_counter.vhd/reg - nbit_reg - behavioural</ClosedNode>
+         <ClosedNode>/four_bit_updown_counter - Behavioural E:|for_testing_submission|src|lab4|four_bit_updown_counter.vhd</ClosedNode>
+         <ClosedNode>/four_bit_updown_counter - Behavioural E:|for_testing_submission|src|lab4|four_bit_updown_counter.vhd/PartA - four_bit_adder_subtractor - Behavioral/lac_adder - four_bit_LAC_adder - Behavioral</ClosedNode>
+         <ClosedNode>/four_bit_updown_counter - Behavioural E:|for_testing_submission|src|lab4|four_bit_updown_counter.vhd/PartA - four_bit_adder_subtractor - Behavioral/xor_control - nbit_xor_contol - Behavioral</ClosedNode>
          <ClosedNode>/four_input_nor_gate_test_bench - four_input_nor_gate_test_arch C:|Users|neoke|Desktop|DSD-E|for_testing_submission|project|microprogram_cdp_test_VHDL|four_input_nor_gate_test.vhd</ClosedNode>
+         <ClosedNode>/four_input_nor_gate_test_bench - four_input_nor_gate_test_arch E:|for_testing_submission|project|microprogram_cdp_test_VHDL|four_input_nor_gate_test.vhd</ClosedNode>
          <ClosedNode>/full_adder_test_bench - full_adder_test_arch C:|Users|neoke|Desktop|DSD-E|for_testing_submission|project|microprogram_cdp_test_VHDL|full_adder_test.vhd</ClosedNode>
+         <ClosedNode>/full_adder_test_bench - full_adder_test_arch E:|for_testing_submission|project|microprogram_cdp_test_VHDL|full_adder_test.vhd</ClosedNode>
          <ClosedNode>/half_adder_test_bench - half_adder_test_arch C:|Users|neoke|Desktop|DSD-E|for_testing_submission|project|microprogram_cdp_test_VHDL|half_adder_test.vhd</ClosedNode>
+         <ClosedNode>/half_adder_test_bench - half_adder_test_arch E:|for_testing_submission|project|microprogram_cdp_test_VHDL|half_adder_test.vhd</ClosedNode>
+         <ClosedNode>/modm_async_count - Behavioral E:|for_testing_submission|src|lab4|modm_async_count.vhd</ClosedNode>
+         <ClosedNode>/modm_async_count - Behavioral E:|for_testing_submission|src|lab4|modm_async_count.vhd/newCounter - nbit_count_enable - Behavioral</ClosedNode>
+         <ClosedNode>/modm_async_count - Behavioral E:|for_testing_submission|src|lab4|modm_async_count.vhd/newCounter - nbit_count_enable - Behavioral/inc - nbit_incrementer - Behavioral</ClosedNode>
+         <ClosedNode>/modm_async_count - Behavioral E:|for_testing_submission|src|lab4|modm_async_count.vhd/newCounter - nbit_count_enable - Behavioral/reg - nbit_reg - behavioural</ClosedNode>
+         <ClosedNode>/modm_sync_count - Behavioral E:|for_testing_submission|src|lab4|modm_sync_count.vhd</ClosedNode>
+         <ClosedNode>/modm_sync_count - Behavioral E:|for_testing_submission|src|lab4|modm_sync_count.vhd/newCounter - nbit_parallel_load_sync_counter - Behavioural/A - nbit_incrementer - Behavioral</ClosedNode>
+         <ClosedNode>/modm_sync_count - Behavioral E:|for_testing_submission|src|lab4|modm_sync_count.vhd/newCounter - nbit_parallel_load_sync_counter - Behavioural/B - nbit_two_input_mux - Behavioral</ClosedNode>
+         <ClosedNode>/modm_sync_count - Behavioral E:|for_testing_submission|src|lab4|modm_sync_count.vhd/newCounter - nbit_parallel_load_sync_counter - Behavioural/B - nbit_two_input_mux - Behavioral/nbit_mux_i - two_input_multiplexer - multi_component_two_input_multiplexer_arch</ClosedNode>
+         <ClosedNode>/modm_sync_count - Behavioral E:|for_testing_submission|src|lab4|modm_sync_count.vhd/newCounter - nbit_parallel_load_sync_counter - Behavioural/C - nbit_reg - behavioural</ClosedNode>
          <ClosedNode>/nand_gate_test_bench - test_arch C:|Users|neoke|Desktop|DSD-E|for_testing_submission|project|microprogram_cdp_test_VHDL|nand_gate_test.vhd</ClosedNode>
+         <ClosedNode>/nand_gate_test_bench - test_arch E:|for_testing_submission|project|microprogram_cdp_test_VHDL|nand_gate_test.vhd</ClosedNode>
          <ClosedNode>/nbit_loadhold_reg - Behavioral C:|Users|neoke|Desktop|DSD-E|for_testing_submission|project|microprogram_cdp_test_VHDL|nbit_loadhold_reg.vhd</ClosedNode>
          <ClosedNode>/nbit_loadhold_triout_reg - Behavioral C:|Users|neoke|Desktop|DSD-E|for_testing_submission|src|lab3|nbit_loadhold_triout_reg.vhd</ClosedNode>
+         <ClosedNode>/nbit_loadhold_triout_reg - Behavioral E:|for_testing_submission|project|microprogram_cdp_test_VHDL|nbit_loadhold_triout_reg.vhd</ClosedNode>
+         <ClosedNode>/nbit_loadhold_triout_reg - Behavioral E:|for_testing_submission|project|microprogram_cdp_test_VHDL|nbit_loadhold_triout_reg.vhd/loadhold_reg - nbit_loadhold_reg - Behavioral/two_in_mux - nbit_two_input_mux - Behavioral/nbit_mux_i - two_input_multiplexer - multi_component_two_input_multiplexer_arch</ClosedNode>
          <ClosedNode>/nbit_logic_unit - Behavioral C:|Users|neoke|Desktop|DSD-E|for_testing_submission|project|microprogram_cdp_test_VHDL|nbit_logic_unit.vhd</ClosedNode>
          <ClosedNode>/nbit_parallel_load_shiftreg - Behavioral C:|Users|neoke|Desktop|DSD-E|for_testing_submission|src|lab3|nbit_parallel_load_shiftreg.vhd</ClosedNode>
+         <ClosedNode>/nbit_parallel_load_shiftreg - Behavioral E:|for_testing_submission|project|microprogram_cdp_test_VHDL|nbit_parallel_load_shiftreg.vhd</ClosedNode>
+         <ClosedNode>/nbit_parallel_load_shiftreg - Behavioral E:|for_testing_submission|project|microprogram_cdp_test_VHDL|nbit_parallel_load_shiftreg.vhd/mux - nbit_two_input_mux - Behavioral/nbit_mux_i - two_input_multiplexer - multi_component_two_input_multiplexer_arch</ClosedNode>
          <ClosedNode>/nbit_reg - behavioural C:|Users|neoke|Desktop|DSD-E|for_testing_submission|project|microprogram_cdp_test_VHDL|nbit_reg.vhd</ClosedNode>
+         <ClosedNode>/nbit_ripple_counter - Behavioral E:|for_testing_submission|src|lab4|nbit_ripple_counter.vhd</ClosedNode>
          <ClosedNode>/nbit_shiftreg - Behavioral C:|Users|neoke|Desktop|DSD-E|for_testing_submission|src|lab3|nbit_shiftreg.vhd</ClosedNode>
          <ClosedNode>/nbit_tristate_buff - Behavioral C:|Users|neoke|Desktop|DSD-E|for_testing_submission|project|microprogram_cdp_test_VHDL|nbit_tristate_buff.vhd</ClosedNode>
          <ClosedNode>/nbit_twisted_ring_conter - Behavioral C:|Users|neoke|Desktop|DSD-E|for_testing_submission|project|microprogram_cdp_test_VHDL|nbit_twisted_ring_counter.vhd</ClosedNode>
+         <ClosedNode>/nbit_twisted_ring_conter - Behavioral E:|for_testing_submission|project|microprogram_cdp_test_VHDL|nbit_twisted_ring_counter.vhd</ClosedNode>
          <ClosedNode>/nbit_two_input_mux - Behavioral C:|Users|neoke|Desktop|DSD-E|for_testing_submission|project|microprogram_cdp_test_VHDL|nbit_two_input_mux.vhd</ClosedNode>
          <ClosedNode>/nbit_universal_shiftreg - Behavioral C:|Users|neoke|Desktop|DSD-E|for_testing_submission|project|microprogram_cdp_test_VHDL|nbit_universal_shifreg.vhd</ClosedNode>
+         <ClosedNode>/nbit_universal_shiftreg - Behavioral E:|for_testing_submission|project|microprogram_cdp_test_VHDL|nbit_universal_shifreg.vhd</ClosedNode>
          <ClosedNode>/nbit_xor_contol - Behavioral C:|Users|neoke|Desktop|DSD-E|for_testing_submission|project|microprogram_cdp_test_VHDL|nbit_xor_contol.vhd</ClosedNode>
          <ClosedNode>/nor_gate_test_bench - nor_test_arch C:|Users|neoke|Desktop|DSD-E|for_testing_submission|project|microprogram_cdp_test_VHDL|nor_gate_test.vhd</ClosedNode>
+         <ClosedNode>/nor_gate_test_bench - nor_test_arch E:|for_testing_submission|project|microprogram_cdp_test_VHDL|nor_gate_test.vhd</ClosedNode>
          <ClosedNode>/one_bit_logic_slice - Behavioral C:|Users|neoke|Desktop|DSD-E|for_testing_submission|project|microprogram_cdp_test_VHDL|one_bit_logic_slice.vhd</ClosedNode>
          <ClosedNode>/shift_rotate - Behavioral C:|Users|neoke|Desktop|DSD-E|for_testing_submission|project|microprogram_cdp_test_VHDL|shift_rotate.vhd</ClosedNode>
          <ClosedNode>/test_not - behavioural C:|Users|neoke|Desktop|DSD-E|for_testing_submission|project|microprogram_cdp_test_VHDL|test_NOT.vhd</ClosedNode>
+         <ClosedNode>/test_not - behavioural E:|for_testing_submission|project|microprogram_cdp_test_VHDL|test_NOT.vhd</ClosedNode>
          <ClosedNode>/test_or - test_or_architecture C:|Users|neoke|Desktop|DSD-E|for_testing_submission|project|microprogram_cdp_test_VHDL|test_OR.vhd</ClosedNode>
+         <ClosedNode>/test_or - test_or_architecture E:|for_testing_submission|project|microprogram_cdp_test_VHDL|test_OR.vhd</ClosedNode>
          <ClosedNode>/test_two_input_and - test_and_architecture C:|Users|neoke|Desktop|DSD-E|for_testing_submission|project|microprogram_cdp_test_VHDL|test_two_input_and.vhd</ClosedNode>
+         <ClosedNode>/test_two_input_and - test_and_architecture E:|for_testing_submission|project|microprogram_cdp_test_VHDL|test_two_input_and.vhd</ClosedNode>
          <ClosedNode>/test_xor - test_xor_architecture C:|Users|neoke|Desktop|DSD-E|for_testing_submission|project|microprogram_cdp_test_VHDL|test_XOR.vhd</ClosedNode>
+         <ClosedNode>/test_xor - test_xor_architecture E:|for_testing_submission|project|microprogram_cdp_test_VHDL|test_XOR.vhd</ClosedNode>
          <ClosedNode>/three_input_or_gate_test_bench - three_input_or_gate_test_arch C:|Users|neoke|Desktop|DSD-E|for_testing_submission|project|microprogram_cdp_test_VHDL|three_input_or_gate_test.vhd</ClosedNode>
+         <ClosedNode>/three_input_or_gate_test_bench - three_input_or_gate_test_arch E:|for_testing_submission|project|microprogram_cdp_test_VHDL|three_input_or_gate_test.vhd</ClosedNode>
          <ClosedNode>/two_input_multiplexer - multi_component_two_input_multiplexer_arch C:|Users|neoke|Desktop|DSD-E|for_testing_submission|project|microprogram_cdp_test_VHDL|two_input_multiplexer.vhd</ClosedNode>
          <ClosedNode>/two_input_multiplexer_test_bench - two_input_multiplexer_test_arch C:|Users|neoke|Desktop|DSD-E|for_testing_submission|project|microprogram_cdp_test_VHDL|two_input_multiplexer_test.vhd</ClosedNode>
+         <ClosedNode>/two_input_multiplexer_test_bench - two_input_multiplexer_test_arch E:|for_testing_submission|project|microprogram_cdp_test_VHDL|two_input_multiplexer_test.vhd</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Unassigned User Library Modules</SelectedItem>
+         <SelectedItem>modm_async_count - Behavioral (E:/for_testing_submission/src/lab4/modm_async_count.vhd)</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000014a000000020000000100000000000000000200000064ffffffff0000008100000003000000020000014a0000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000025a000000020000000000000000000000000200000064ffffffff0000008100000003000000020000025a0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>Unassigned User Library Modules</CurrentItem>
+      <CurrentItem>modm_async_count - Behavioral (E:/for_testing_submission/src/lab4/modm_async_count.vhd)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
@@ -58,13 +95,13 @@
          <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem>Design Utilities</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000015b000000010000000100000000000000000000000064ffffffff0000008100000000000000010000015b0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000170000000010000000100000000000000000000000064ffffffff000000810000000000000001000001700000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem>Design Utilities</CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -73,7 +110,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000027d000000040101000100000000000000000000000064ffffffff000000810000000000000004000000d500000001000000000000009d0000000100000000000000660000000100000000000000a50000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000392000000040101000100000000000000000000000064ffffffff000000810000000000000004000000d500000001000000000000009d0000000100000000000000660000000100000000000001ba0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
@@ -103,10 +140,118 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000000000000000000015b000000010000000100000000000000000000000064ffffffff0000008100000000000000010000015b0000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000170000000010000000100000000000000000000000064ffffffff000000810000000000000001000001700000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
    <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
    <CurrentView>Implementation</CurrentView>
+   <ItemView engineview="BehavioralSim" guiview="Source" compilemode="AutoCompile" >
+      <ClosedNodes>
+         <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/d_flipflop_tb - behavior E:|for_testing_submission|project|microprogram_cdp_test_VHDL|d_flipflop_tb.vhd</ClosedNode>
+         <ClosedNode>/eight_bit_comparator_tb - behavioral E:|for_testing_submission|test|lab4|eight_bit_comparator_tb.vhd</ClosedNode>
+         <ClosedNode>/four_bit_LAC_adder_tb - behavior E:|for_testing_submission|project|microprogram_cdp_test_VHDL|four_bit_LAC_adder_tb.vhd</ClosedNode>
+         <ClosedNode>/four_bit_adder_subtractor_tb - behavior E:|for_testing_submission|project|microprogram_cdp_test_VHDL|four_bit_adder_subtractor_tb.vhd</ClosedNode>
+         <ClosedNode>/four_bit_alu_tb_vhd - behavior E:|for_testing_submission|project|microprogram_cdp_test_VHDL|four_bit_alu_tb.vhd</ClosedNode>
+         <ClosedNode>/four_bit_arithmetic_unit_tb - Behavioral E:|for_testing_submission|project|microprogram_cdp_test_VHDL|four_bit_arithmetic_unit_tb.vhd</ClosedNode>
+         <ClosedNode>/four_bit_lac_tb_vhd - behavior E:|for_testing_submission|project|microprogram_cdp_test_VHDL|four_bit_lac_tb.vhd</ClosedNode>
+         <ClosedNode>/four_bit_linear_feedback_shiftreg_tb - tb E:|for_testing_submission|project|microprogram_cdp_test_VHDL|four_bit_linear_shiftreg_tb.vhd</ClosedNode>
+         <ClosedNode>/four_bit_linear_feedback_shiftreg_tb - tb E:|for_testing_submission|project|microprogram_cdp_test_VHDL|four_bit_linear_shiftreg_tb.vhd/dut - four_bit_linear_feedback_shiftreg - Behavioral/reg - nbit_shiftreg - Behavioral</ClosedNode>
+         <ClosedNode>/four_bit_shifter_tb_vhd - behavior E:|for_testing_submission|project|microprogram_cdp_test_VHDL|four_bit_shifter_tb.vhd</ClosedNode>
+         <ClosedNode>/four_bit_synchronous_counter_tb - behavior E:|for_testing_submission|test|lab4|four_bit_synchronous_counter_tb.vhd</ClosedNode>
+         <ClosedNode>/four_bit_updown_counter_tb - behavior E:|for_testing_submission|test|lab4|four_bit_updown_counter_tb.vhd</ClosedNode>
+         <ClosedNode>/four_input_mux_tb - behavioural E:|for_testing_submission|project|microprogram_cdp_test_VHDL|four_input_mux_tb.vhd</ClosedNode>
+         <ClosedNode>/four_input_nor_gate_test_bench - four_input_nor_gate_test_arch E:|for_testing_submission|project|microprogram_cdp_test_VHDL|four_input_nor_gate_test.vhd</ClosedNode>
+         <ClosedNode>/full_adder_test_bench - full_adder_test_arch E:|for_testing_submission|project|microprogram_cdp_test_VHDL|full_adder_test.vhd</ClosedNode>
+         <ClosedNode>/half_adder_test_bench - half_adder_test_arch E:|for_testing_submission|project|microprogram_cdp_test_VHDL|half_adder_test.vhd</ClosedNode>
+         <ClosedNode>/modm_async_count_tb - behavior E:|for_testing_submission|test|lab4|modm_async_count_tb.vhd</ClosedNode>
+         <ClosedNode>/modm_sync_count_tb - behavior E:|for_testing_submission|test|lab4|modm_sync_count_tb.vhd</ClosedNode>
+         <ClosedNode>/nand_gate_test_bench - test_arch E:|for_testing_submission|project|microprogram_cdp_test_VHDL|nand_gate_test.vhd</ClosedNode>
+         <ClosedNode>/nbit_adder_tb - behavioural E:|for_testing_submission|project|microprogram_cdp_test_VHDL|nbit_adder_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_count_enable_tb_vhd - behavior E:|for_testing_submission|test|lab4|nbit_count_enable_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_incrementer_tb - behavior E:|for_testing_submission|test|lab4|nbit_incrementer_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_loadhold_reg_tb - behavior E:|for_testing_submission|project|microprogram_cdp_test_VHDL|nbit_loadhold_reg_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_loadhold_triout_reg_tb - behavior E:|for_testing_submission|project|microprogram_cdp_test_VHDL|nbit_loadhold_triout_reg_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_loadhold_triout_reg_tb - behavior E:|for_testing_submission|project|microprogram_cdp_test_VHDL|nbit_loadhold_triout_reg_tb.vhd/uut - nbit_loadhold_triout_reg - Behavioral/loadhold_reg - nbit_loadhold_reg - Behavioral</ClosedNode>
+         <ClosedNode>/nbit_loadhold_triout_reg_tb - behavior E:|for_testing_submission|project|microprogram_cdp_test_VHDL|nbit_loadhold_triout_reg_tb.vhd/uut - nbit_loadhold_triout_reg - Behavioral/tristate_buff - nbit_tristate_buff - Behavioral</ClosedNode>
+         <ClosedNode>/nbit_logic_unit_tb - behavioural E:|for_testing_submission|project|microprogram_cdp_test_VHDL|nbit_logic_unit_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_parallel_load_shiftreg_tb - behavior E:|for_testing_submission|project|microprogram_cdp_test_VHDL|nbit_parallel_load_shiftreg_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_parallel_load_sync_counter_tb - behavior E:|for_testing_submission|test|lab4|nbit_parallel_load_sync_counter_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_parallel_load_sync_counter_tb - behavior E:|for_testing_submission|test|lab4|nbit_parallel_load_sync_counter_tb.vhd/uut - nbit_parallel_load_sync_counter - Behavioural</ClosedNode>
+         <ClosedNode>/nbit_reg_tb - behaviour E:|for_testing_submission|project|microprogram_cdp_test_VHDL|nbit_reg_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_ripple_counter_tb - behavior E:|for_testing_submission|test|lab4|nbit_ripple_counter_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_ripple_counter_tb - behavior E:|for_testing_submission|test|lab4|nbit_ripple_counter_tb.vhd/uut - nbit_ripple_counter - Behavioral</ClosedNode>
+         <ClosedNode>/nbit_shiftreg_tb_vhd - behavior E:|for_testing_submission|project|microprogram_cdp_test_VHDL|nbit_shiftreg_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_tristate_buff_tb - behavior E:|for_testing_submission|project|microprogram_cdp_test_VHDL|nbit_tristate_buff_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_twisted_ring_conter - Behavioral E:|for_testing_submission|project|microprogram_cdp_test_VHDL|nbit_twisted_ring_counter.vhd</ClosedNode>
+         <ClosedNode>/nbit_twisted_ring_counter_tb - behavior E:|for_testing_submission|project|microprogram_cdp_test_VHDL|nbit_twisted_ring_counter_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_two_input_mux_tb - behavior E:|for_testing_submission|project|microprogram_cdp_test_VHDL|nbit_two_input_mux_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_universal_shiftreg_tb - behavior E:|for_testing_submission|project|microprogram_cdp_test_VHDL|nbit_universal_shiftreg_tb.vhd</ClosedNode>
+         <ClosedNode>/nbit_xor_control_tb_vhd - behavior E:|for_testing_submission|project|microprogram_cdp_test_VHDL|nbit_xor_control_tb.vhd</ClosedNode>
+         <ClosedNode>/next_state_logic_tb - tb E:|for_testing_submission|test|lab4|next_state_logic_tb.vhd</ClosedNode>
+         <ClosedNode>/nor_gate_test_bench - nor_test_arch E:|for_testing_submission|project|microprogram_cdp_test_VHDL|nor_gate_test.vhd</ClosedNode>
+         <ClosedNode>/one_bit_logic_slice_tb - behavioural E:|for_testing_submission|project|microprogram_cdp_test_VHDL|one_bit_logic_slice_tb.vhd</ClosedNode>
+         <ClosedNode>/shift_control_logic_tb - Behavioural E:|for_testing_submission|project|microprogram_cdp_test_VHDL|shift_control_logic_tb.vhd</ClosedNode>
+         <ClosedNode>/shift_rotate_tb - Behavioral E:|for_testing_submission|project|microprogram_cdp_test_VHDL|shift_rotate_tb.vhd</ClosedNode>
+         <ClosedNode>/t_flipflop_tb_vhd - behavior E:|for_testing_submission|project|microprogram_cdp_test_VHDL|t_flipflop_tb.vhd</ClosedNode>
+         <ClosedNode>/test_not - behavioural E:|for_testing_submission|project|microprogram_cdp_test_VHDL|test_NOT.vhd</ClosedNode>
+         <ClosedNode>/test_or - test_or_architecture E:|for_testing_submission|project|microprogram_cdp_test_VHDL|test_OR.vhd</ClosedNode>
+         <ClosedNode>/test_two_input_and - test_and_architecture E:|for_testing_submission|project|microprogram_cdp_test_VHDL|test_two_input_and.vhd</ClosedNode>
+         <ClosedNode>/test_xor - test_xor_architecture E:|for_testing_submission|project|microprogram_cdp_test_VHDL|test_XOR.vhd</ClosedNode>
+         <ClosedNode>/three_input_or_gate_test_bench - three_input_or_gate_test_arch E:|for_testing_submission|project|microprogram_cdp_test_VHDL|three_input_or_gate_test.vhd</ClosedNode>
+         <ClosedNode>/tri_buff_tb_vhd - behavior E:|for_testing_submission|project|microprogram_cdp_test_VHDL|tri_buff_tb.vhd</ClosedNode>
+         <ClosedNode>/two_input_multiplexer_test_bench - two_input_multiplexer_test_arch E:|for_testing_submission|project|microprogram_cdp_test_VHDL|two_input_multiplexer_test.vhd</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem>two_input_multiplexer_test_bench - two_input_multiplexer_test_arch (E:/for_testing_submission/project/microprogram_cdp_test_VHDL/two_input_multiplexer_test.vhd)</SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000025a000000020000000000000000000000000200000064ffffffff0000008100000003000000020000025a0000000100000003000000000000000100000003</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem>two_input_multiplexer_test_bench - two_input_multiplexer_test_arch (E:/for_testing_submission/project/microprogram_cdp_test_VHDL/two_input_multiplexer_test.vhd)</CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>Design Utilities</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000170000000010000000100000000000000000000000064ffffffff000000810000000000000001000001700000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="BehavioralSim" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>ISim Simulator</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000170000000010000000100000000000000000000000064ffffffff000000810000000000000001000001700000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+         <ClosedNode>User Constraints</ClosedNode>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem></SelectedItem>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000000000000000000170000000010000000100000000000000000000000064ffffffff000000810000000000000001000001700000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem></CurrentItem>
+   </ItemView>
 </Project>

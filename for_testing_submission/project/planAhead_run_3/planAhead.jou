@@ -1,0 +1,72 @@
+#-----------------------------------------------------------
+# PlanAhead v14.7 (64-bit)
+# Build 321239 by xbuild on Fri Sep 27 19:29:51 MDT 2013
+# Start of session at: Wed Nov 22 16:55:19 2017
+# Process ID: 760
+# Log file: E:/for_testing_submission/project/planAhead_run_3/planAhead.log
+# Journal file: E:/for_testing_submission/project/planAhead_run_3/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source E:/for_testing_submission/project/pa.fromNetlist.tcl
+startgroup
+set_property package_pin A10 [get_ports CLK]
+endgroup
+startgroup
+set_property package_pin C13 [get_ports countEnable]
+endgroup
+startgroup
+set_property package_pin D12 [get_ports reset]
+endgroup
+startgroup
+set_property package_pin A10 [get_ports CLK]
+endgroup
+set_property package_pin "" [get_ports [list  {Q_Out[1]}]]
+startgroup
+set_property package_pin C11 [get_ports {Q_Out[0]}]
+endgroup
+startgroup
+set_property package_pin D11 [get_ports {Q_Out[1]}]
+endgroup
+startgroup
+set_property package_pin B11 [get_ports {Q_Out[2]}]
+endgroup
+startgroup
+set_property package_pin A12 [get_ports {Q_Out[3]}]
+endgroup
+startgroup
+set_property package_pin A13 [get_ports {Q_Out[4]}]
+endgroup
+startgroup
+set_property package_pin B13 [get_ports {Q_Out[5]}]
+endgroup
+startgroup
+set_property package_pin A14 [get_ports {Q_Out[6]}]
+endgroup
+startgroup
+set_property package_pin B14 [get_ports {Q_Out[7]}]
+endgroup
+startgroup
+set_property package_pin J11 [get_ports {M_value[0]}]
+endgroup
+startgroup
+set_property package_pin J12 [get_ports {M_value[1]}]
+endgroup
+startgroup
+set_property package_pin H16 [get_ports {M_value[2]}]
+endgroup
+startgroup
+set_property package_pin H13 [get_ports {M_value[3]}]
+endgroup
+startgroup
+set_property package_pin G12 [get_ports {M_value[4]}]
+endgroup
+startgroup
+set_property package_pin E14 [get_ports {M_value[5]}]
+endgroup
+startgroup
+set_property package_pin D16 [get_ports {M_value[6]}]
+endgroup
+startgroup
+set_property package_pin B16 [get_ports {M_value[7]}]
+endgroup
+save_constraints

@@ -1,0 +1,27 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Wed Nov 22 16:51:22 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Q_Out<0>" LOCATE = SITE "C11" LEVEL 1;
+COMP "Q_Out<1>" LOCATE = SITE "D11" LEVEL 1;
+COMP "Q_Out<2>" LOCATE = SITE "B11" LEVEL 1;
+COMP "Q_Out<3>" LOCATE = SITE "A12" LEVEL 1;
+COMP "Q_Out<4>" LOCATE = SITE "A13" LEVEL 1;
+COMP "Q_Out<5>" LOCATE = SITE "B13" LEVEL 1;
+COMP "Q_Out<6>" LOCATE = SITE "A14" LEVEL 1;
+COMP "Q_Out<7>" LOCATE = SITE "B14" LEVEL 1;
+COMP "reset" LOCATE = SITE "D12" LEVEL 1;
+COMP "M_value<0>" LOCATE = SITE "J11" LEVEL 1;
+COMP "M_value<1>" LOCATE = SITE "J12" LEVEL 1;
+COMP "countEnable" LOCATE = SITE "C13" LEVEL 1;
+COMP "M_value<2>" LOCATE = SITE "H16" LEVEL 1;
+COMP "M_value<3>" LOCATE = SITE "H13" LEVEL 1;
+COMP "CLK" LOCATE = SITE "A10" LEVEL 1;
+COMP "M_value<4>" LOCATE = SITE "G12" LEVEL 1;
+COMP "M_value<5>" LOCATE = SITE "E14" LEVEL 1;
+COMP "M_value<6>" LOCATE = SITE "D16" LEVEL 1;
+COMP "M_value<7>" LOCATE = SITE "B16" LEVEL 1;
+NET "CLK_BUFGP/IBUFG" BEL "CLK_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+SCHEMATIC END;
+

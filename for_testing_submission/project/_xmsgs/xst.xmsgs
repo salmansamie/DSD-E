@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="Xst" num="753" delta="new" >&quot;<arg fmt="%s" index="1">E:/for_testing_submission/src/lab4/modm_async_count.vhd</arg>&quot; line <arg fmt="%d" index="2">64</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">ripple_carry_out</arg>&apos; of component &apos;<arg fmt="%s" index="4">nbit_count_enable</arg>&apos;.
+</msg>
+
+<msg type="info" file="Xst" num="1608" delta="old" >Relative priorities of control signals on register &lt;<arg fmt="%s" index="1">qnot</arg>&gt; differ from those commonly found in the selected device family. This will result in additional logic around the register.
+</msg>
+
+<msg type="warning" file="Xst" num="646" delta="new" >Signal &lt;<arg fmt="%s" index="1">dummy</arg>&gt; is assigned but never used. This unconnected signal will be trimmed during the optimization process.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">newCounter/reg/inst[7].d_flipflop_i/qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">modm_async_count</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">newCounter/reg/inst[6].d_flipflop_i/qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">modm_async_count</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">newCounter/reg/inst[5].d_flipflop_i/qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">modm_async_count</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">newCounter/reg/inst[4].d_flipflop_i/qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">modm_async_count</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">newCounter/reg/inst[3].d_flipflop_i/qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">modm_async_count</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">newCounter/reg/inst[2].d_flipflop_i/qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">modm_async_count</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">newCounter/reg/inst[1].d_flipflop_i/qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">modm_async_count</arg>&gt;.
+</msg>
+
+<msg type="warning" file="Xst" num="2677" delta="new" >Node &lt;<arg fmt="%s" index="1">newCounter/reg/inst[0].d_flipflop_i/qnot</arg>&gt; of sequential type is unconnected in block &lt;<arg fmt="%s" index="2">modm_async_count</arg>&gt;.
+</msg>
+
+</messages>
+
