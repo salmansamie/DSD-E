@@ -1,0 +1,29 @@
+Command line:
+   nbit_count_enable_tb_vhd_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  60672
+
+Tue Nov 21 23:23:36 2017
+
+
+ Elaboration Time: 0.078125 sec
+
+ Current Memory Usage: 845.464 Meg
+
+ Total Signals          : 104
+ Total Nets             : 36
+ Total Signal Drivers   : 35
+ Total Blocks           : 48
+ Total Primitive Blocks : 20
+ Total Processes        : 18
+ Total Traceable Variables  : 34
+ Total Scalar Nets and Variables : 556
+Total Line Count : 154
+
+ Total Simulation Time: 0.140625 sec
+
+ Current Memory Usage: 530.891 Meg
+
+Wed Nov 22 00:13:31 2017
+

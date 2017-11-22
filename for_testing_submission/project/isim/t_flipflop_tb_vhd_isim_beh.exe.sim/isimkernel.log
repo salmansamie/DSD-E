@@ -2,14 +2,14 @@ Command line:
    t_flipflop_tb_vhd_isim_beh.exe
      -simmode  gui
      -simrunnum  1
-     -socket  54837
+     -socket  57723
 
-Wed Nov 15 18:21:41 2017
+Tue Nov 21 01:19:53 2017
 
 
- Elaboration Time: 0.046875 sec
+ Elaboration Time: 0.15625 sec
 
- Current Memory Usage: 842.101 Meg
+ Current Memory Usage: 844.976 Meg
 
  Total Signals          : 8
  Total Nets             : 4
@@ -21,9 +21,9 @@ Wed Nov 15 18:21:41 2017
  Total Scalar Nets and Variables : 505
 Total Line Count : 12
 
- Total Simulation Time: 0.0625 sec
+ Total Simulation Time: 0.15625 sec
 
- Current Memory Usage: 684.814 Meg
+ Current Memory Usage: 687.69 Meg
 
-Wed Nov 15 18:22:57 2017
+Tue Nov 21 01:42:11 2017
 

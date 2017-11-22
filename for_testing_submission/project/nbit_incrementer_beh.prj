@@ -1,0 +1,2 @@
+vhdl work "microprogram_cdp_test_VHDL/half_adder.vhd"
+vhdl work "../src/lab4/nbit_incrementer.vhd"

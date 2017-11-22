@@ -1,4 +1,0 @@
-vhdl isim_temp "microprogram_cdp_test_VHDL/d_flipflop.vhd"
-vhdl isim_temp "microprogram_cdp_test_VHDL/nbit_reg.vhd"
-vhdl isim_temp "../src/lab3/nbit_shiftreg.vhd"
-vhdl isim_temp "../test/lab3/nbit_shiftreg_tb.vhd"

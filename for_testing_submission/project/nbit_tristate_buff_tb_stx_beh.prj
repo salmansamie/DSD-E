@@ -1,3 +1,0 @@
-vhdl isim_temp "microprogram_cdp_test_VHDL/tri_buff.vhd"
-vhdl isim_temp "microprogram_cdp_test_VHDL/nbit_tristate_buff.vhd"
-vhdl isim_temp "microprogram_cdp_test_VHDL/nbit_tristate_buff_tb.vhd"

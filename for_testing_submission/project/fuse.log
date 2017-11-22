@@ -1,19 +1,35 @@
-Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/d_flipflop_tb_isim_beh.exe -prj C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/d_flipflop_tb_beh.prj work.d_flipflop_tb 
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/modm_async_count_tb_isim_beh.exe -prj C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/modm_async_count_tb_beh.prj modm_async_count_tb 
 ISim P.20131013 (signature 0x7708f090)
 Number of CPUs detected in this system: 4
 Turning on mult-threading, number of parallel sub-compilation jobs: 8 
 Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/microprogram_cdp_test_VHDL/half_adder.vhd" into library work
 Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/microprogram_cdp_test_VHDL/d_flipflop.vhd" into library work
-Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/microprogram_cdp_test_VHDL/d_flipflop_tb.vhd" into library work
+Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/../src/lab4/nbit_incrementer.vhd" into library work
+Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/microprogram_cdp_test_VHDL/nbit_reg.vhd" into library work
+Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/../src/lab4/nbit_count_enable.vhd" into library work
+Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/../src/lab4/eight_bit_comparator.vhd" into library work
+Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/microprogram_cdp_test_VHDL/OR.vhd" into library work
+Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/../src/lab4/modm_async_count.vhd" into library work
+Parsing VHDL file "C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/../test/lab4/modm_async_count_tb.vhd" into library work
 Starting static elaboration
 Completed static elaboration
 Compiling package standard
 Compiling package std_logic_1164
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity eight_bit_comparator [\eight_bit_comparator(8)\]
+Compiling architecture and_architecture of entity or_gate [or_gate_default]
+Compiling architecture low_level_half_adder of entity half_adder [half_adder_default]
+Compiling architecture behavioral of entity nbit_incrementer [\nbit_incrementer(8)\]
 Compiling architecture behavioural of entity d_flipflop [d_flipflop_default]
-Compiling architecture behavior of entity d_flipflop_tb
+Compiling architecture behavioural of entity nbit_reg [\nbit_reg(8)\]
+Compiling architecture behavioral of entity nbit_count_enable [\nbit_count_enable(8)\]
+Compiling architecture behavioral of entity modm_async_count [\modm_async_count(8)\]
+Compiling architecture behavior of entity modm_async_count_tb
 Time Resolution for simulation is 1ps.
-Waiting for 1 sub-compilation(s) to finish...
-Compiled 5 VHDL Units
-Built simulation executable C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/d_flipflop_tb_isim_beh.exe
-Fuse Memory Usage: 29452 KB
-Fuse CPU Usage: 530 ms
+Waiting for 5 sub-compilation(s) to finish...
+Compiled 21 VHDL Units
+Built simulation executable C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/modm_async_count_tb_isim_beh.exe
+Fuse Memory Usage: 34344 KB
+Fuse CPU Usage: 858 ms
