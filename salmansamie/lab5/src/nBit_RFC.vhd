@@ -10,12 +10,12 @@ entity nBit_RFC is
     Generic (n : positive := 4); -- generic value with default of 4 bits
     Port(
         DataIN : in std_logic_vector (n-1 downto 0);
-        ReadA : in std_logic_1164;
+        ReadA : in std_logic_vector;
         ReadB : in std_logic_1164;
         WriteEn  : in std_logic_1164;
         Clock : in std_logic_1164;
-        OutA  : out std_logic_vector(n-1 downto 0));  -- n-bit since the input in n-bit RE by A
-        OutB  : out std_logic_vector(n-1 downto 0))   -- n-bit since the input in n-bit RE by B
+        OutA  : out std_logic_vector(n-1 downto 0);  -- n-bit since the input in n-bit RE by A
+        OutB  : out std_logic_vector(n-1 downto 0)    -- n-bit since the input in n-bit RE by B
         );
 end nBit_RFC;
 
