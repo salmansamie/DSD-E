@@ -34,10 +34,11 @@ architecture Behavioural of nBit_RFC is
             OB  : out std_logic_1164
         );
     end component;
+
     -- Mapping the imported component with the port of the entity
     begin
         inst: for i in n-1 downto 0 generate
-            nbit_mux_i : generate RFC
+            nbit_RFC_i : generate RFC
                 Port map(DataIN, ReadA, ReadB, WriteEn, Clock, OutA, OutB);
         end generate;
 
