@@ -7,8 +7,6 @@
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
-         <ClosedNode>/four_bit_LAC_adder - Behavioral C:|Users|neoke|Desktop|DSD-E|for_testing_submission|project|microprogram_cdp_test_VHDL|four_bit_LAC_adder.vhd</ClosedNode>
-         <ClosedNode>/four_bit_adder_subtractor - Behavioral C:|Users|neoke|Desktop|DSD-E|for_testing_submission|project|microprogram_cdp_test_VHDL|four_bit_adder_subtractor.vhd</ClosedNode>
          <ClosedNode>/four_bit_alu - Behavioral C:|Users|neoke|Desktop|DSD-E|for_testing_submission|project|microprogram_cdp_test_VHDL|four_bit_alu.vhd</ClosedNode>
          <ClosedNode>/four_bit_alu - Behavioral E:|for_testing_submission|project|microprogram_cdp_test_VHDL|four_bit_alu.vhd</ClosedNode>
          <ClosedNode>/four_bit_arithmetic_unit - Behavioral C:|Users|neoke|Desktop|DSD-E|for_testing_submission|project|microprogram_cdp_test_VHDL|four_bit_arithmetic_unit.vhd</ClosedNode>
@@ -79,20 +77,16 @@
       <SelectedItems>
          <SelectedItem>modm_async_count - Behavioral (E:/for_testing_submission/src/lab4/modm_async_count.vhd)</SelectedItem>
       </SelectedItems>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >1</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000025a000000020000000000000000000000000200000064ffffffff0000008100000003000000020000025a0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
       <CurrentItem>modm_async_count - Behavioral (E:/for_testing_submission/src/lab4/modm_async_count.vhd)</CurrentItem>
    </ItemView>
-   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
+   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
-         <ClosedNode>Configure Target Device</ClosedNode>
          <ClosedNode>Design Utilities</ClosedNode>
-         <ClosedNode>Implement Design</ClosedNode>
-         <ClosedNode>Synthesize - XST</ClosedNode>
-         <ClosedNode>User Constraints</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
          <SelectedItem>Design Utilities</SelectedItem>
@@ -108,11 +102,11 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems/>
-      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="vertical" >19</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000392000000040101000100000000000000000000000064ffffffff000000810000000000000004000000d500000001000000000000009d0000000100000000000000660000000100000000000001ba0000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem>AND.vhd</CurrentItem>
    </ItemView>
    <ItemView guiview="Library" >
       <ClosedNodes>
@@ -126,7 +120,7 @@
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>work</CurrentItem>
    </ItemView>
-   <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_VHDL_ARCHITECTURE" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
          <ClosedNode>Configure Target Device</ClosedNode>

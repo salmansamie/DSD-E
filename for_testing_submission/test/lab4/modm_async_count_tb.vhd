@@ -10,8 +10,8 @@ USE ieee.std_logic_1164.ALL;
 
 ENTITY modm_async_count_tb IS
 END modm_async_count_tb;
- 
-ARCHITECTURE behavior OF modm_async_count_tb IS 
+
+ARCHITECTURE behavior OF modm_async_count_tb IS
 
 -- Component Declaration for the Unit Under Test (UUT)
 
@@ -40,11 +40,11 @@ BEGIN
 
 --------------------------------------------------------------------------------
 
---         Comments           CLK   reset  countEnable  M_value :  Q_Out 
+--         Comments           CLK   reset  countEnable  M_value :  Q_Out
 -- --------------------------------------------------------------:--------------
---           Reset             X      1          X          X    :  00000000    
---           Hold           Rising    0          0          X    :   last Q   
---   Count up (last Q < M)  Rising    0          1          M    : last Q + 1 
+--           Reset             X      1          X          X    :  00000000
+--           Hold           Rising    0          0          X    :   last Q
+--   Count up (last Q < M)  Rising    0          1          M    : last Q + 1
 --  Count up  (last Q = M)     X      0          1          M    :  00000000
 
 -- -----------------------------------------------------------------------------
@@ -58,53 +58,56 @@ uut: modm_async_count PORT MAP (
 	  reset => reset,
 	  Q_Out => Q_Out
 	);
-	  
+
 CLK <= not CLK after 50 ns;
 
 tb: process
-begin		
+begin
 
 	wait for 100 ns;
 	-- Reset output to 0
 	reset <= '1';
-	
+
 	wait for 20 ns;
 	-- Deactivate reset
 	reset <= '0';
-	
+
 	countEnable <= '1';
-	M_value <= "00000011";
-	
+	M_value <= "00000100";
+
 	wait for 100 ns;
 	-- Case 1: Count up
-	
+
 	assert (Q_Out = "00000001") report "Case 1 failed: Q_Out /= 00000001";
-	
+
 	wait for 100 ns;
 	-- Case 2: Count up
-	
+
 	assert (Q_Out = "00000010") report "Case 2 failed: Q_Out /= 00000010";
-	
+
 	countEnable <= '0';
-	
+
 	wait for 300 ns;
 	-- Case 3: Hold for three clock cycles
-	
+
 	assert (Q_Out = "00000010") report "Case 3 failed: Q_Out /= 00000010";
-	
+
 	countEnable <= '1';
-	
+  wait for 60 ns;
+  assert (Q_Out = "00000011") report "Case 4 failed: Q_Out /= 00000011";
+
 	wait for 100 ns;
 	-- Case 4: Q = M_value
-	
-	assert (Q_Out = "00000011") report "Case 4 failed: Q_Out /= 00000011";
-	
-	wait for 70 ns;
-	-- Case 5: Wrap back to 0
-	
-	assert (Q_Out = "00000000") report "Case 5 failed: Q_Out /= 00000000";
-	
-	reset <= '1';
+	assert (Q_Out = "00000100") report "Case 5 failed: Q_Out /= 00000100";
+
+  wait for 40 ns;
+  assert (Q_Out = "00000000") report "Case 5 failed: Q_Out /= 00000000";
+
+  wait for 100 ns;
+  reset <= '1';
+
+  wait for 40 ns;
+  assert (Q_Out = "00000000") report "Case 5 failed: Q_Out /= 00000000";
 
   wait;
 end process;

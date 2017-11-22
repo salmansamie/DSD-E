@@ -1,1 +1,1 @@
--intstyle "ise" -incremental -o "C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/modm_async_count_tb_isim_beh.exe" -prj "C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/modm_async_count_tb_beh.prj" "modm_async_count_tb" 
+-intstyle "ise" -incremental -o "C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/next_state_logic_tb_isim_beh.exe" -prj "C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/next_state_logic_tb_beh.prj" "work.next_state_logic_tb" 

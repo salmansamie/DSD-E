@@ -1,0 +1,2 @@
+vhdl work "../src/lab4/next_state_logic.vhd"
+vhdl work "../test/lab4/next_state_logic_tb.vhd"

@@ -1,5 +1,6 @@
 ISim log file
-Running: C:\Users\neoke\Desktop\DSD-E\for_testing_submission\project\modm_async_count_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/modm_async_count_tb_isim_beh.wdb 
+Running: C:\Users\neoke\Desktop\DSD-E\for_testing_submission\project\next_state_logic_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/neoke/Desktop/DSD-E/for_testing_submission/project/next_state_logic_tb_isim_beh.wdb 
+INFO: There is another simulation running in the same directory. Using database file name isim3.wdb.
 ISim P.20131013 (signature 0x7708f090)
 WARNING: A WEBPACK license was found.
 WARNING: Please use Xilinx License Configuration Manager to check out a full ISim license.
@@ -11,5 +12,4 @@ Time resolution is 1 ps
 # run 1000 ns
 Simulator is doing circuit initialization process.
 Finished circuit initialization process.
-at 720 ns: Error: Case 4 failed: Q_Out /= 00000011
-at 790 ns: Error: Case 5 failed: Q_Out /= 00000000
+# run 1.00us

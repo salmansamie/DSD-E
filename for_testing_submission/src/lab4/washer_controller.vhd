@@ -74,11 +74,9 @@ end washer_controller;
 architecture Behavioral of washer_controller is
 
 -- SUB-COMPONENTS
-component two_input_mux
-    Port ( a : in std_logic;
-           b : in std_logic;
-           control : in std_logic;
-           f : out std_logic);
+component two_input_multiplexer is
+  Port (  s_in, a, b : in std_logic;
+          f : out std_logic);
 end component;
 
 component washer_next_state_logic
@@ -90,12 +88,12 @@ end component;
 
 component nbit_reg 
 	 generic ( n : positive);
-    Port ( D_inputs : in std_logic_vector(n-1 downto 0);
-           CLK : in std_logic;
-           reset : in std_logic;
-           preset : in std_logic;
-           Q_outputs : out std_logic_vector(n-1 downto 0);
-           Q_bar_outputs : out std_logic_vector(n-1 downto 0));
+    Port ( Dinputs : in STD_LOGIC_VECTOR (n-1 downto 0);
+       CLK : in STD_LOGIC;
+       reset : in STD_LOGIC;
+       preset : in STD_LOGIC;
+       q : out STD_LOGIC_VECTOR (n-1 downto 0);
+       qnot : out STD_LOGIC_VECTOR (n-1 downto 0));
 end component;
 
 component washer_output_logic
@@ -114,7 +112,7 @@ signal mux_out : std_logic;
 begin
 
 -- DEVICE INSTANCES
- mux : two_input_mux port map (start_wash, spin_dry, state(2), mux_out);
+ mux : two_input_multiplexer port map (state(2), start_wash, spin_dry, mux_out);
 
  ns_logic : washer_next_state_logic port map (state, mux_out, door_open, next_state);
  

@@ -1,0 +1,2 @@
+vhdl isim_temp "../src/lab4/washer_output_logic.vhd"
+vhdl isim_temp "../test/lab4/washer_output_logic_tb.vhd"
