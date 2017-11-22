@@ -1,13 +1,6 @@
 
 # Ignore commiting OS generated files #
 #######################################
-.DS_Store
-.DS_Store?
-._*
-louiraj/Lab2/src/4-bit Adder
-louiraj/Lab2/test/4-bit Adder
-louiraj/Lab2/test/4-bit Adder:SubtractorTest.vhd
-louiraj/Lab2/src/4-bit Adder:Subtractor.vhd
 !.gitignore
 !*.prj
 !*.xise
@@ -16,4 +9,6 @@ louiraj/Lab2/src/4-bit Adder:Subtractor.vhd
 !*.ucf
 !src
 !test
-!constrains
+!constraints
+!docs
+!project
