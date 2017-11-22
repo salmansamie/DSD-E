@@ -1,12 +1,15 @@
 
 # Ignore commiting OS generated files #
 #######################################
+*
 !.gitignore
 !*.prj
 !*.xise
 !*.vhd
+!*.vhdl
 !*.docx
 !*.ucf
+!*/
 !src
 !test
 !constraints

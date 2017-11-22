@@ -1,8 +1,0 @@
-Release 14.7 Drc P.20131013 (nt64)
-Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
-
-Wed Nov 22 16:43:43 2017
-
-drc -z four_bit_updown_counter.ncd four_bit_updown_counter.pcf
-
-DRC detected 0 errors and 0 warnings.

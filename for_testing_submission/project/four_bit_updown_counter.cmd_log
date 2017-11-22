@@ -1,6 +1,0 @@
-xst -intstyle ise -ifn "E:/for_testing_submission/project/four_bit_updown_counter.xst" -ofn "E:/for_testing_submission/project/four_bit_updown_counter.syr" 
-ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc microprogram_cdp_test_VHDL/four_bit_updown_counter.ucf -p xc3s500e-ft256-4 four_bit_updown_counter.ngc four_bit_updown_counter.ngd  
-map -intstyle ise -p xc3s500e-ft256-4 -cm area -ir off -pr off -c 100 -o four_bit_updown_counter_map.ncd four_bit_updown_counter.ngd four_bit_updown_counter.pcf 
-par -w -intstyle ise -ol high -t 1 four_bit_updown_counter_map.ncd four_bit_updown_counter.ncd four_bit_updown_counter.pcf 
-trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml four_bit_updown_counter.twx four_bit_updown_counter.ncd -o four_bit_updown_counter.twr four_bit_updown_counter.pcf 
-bitgen -intstyle ise -f four_bit_updown_counter.ut four_bit_updown_counter.ncd 

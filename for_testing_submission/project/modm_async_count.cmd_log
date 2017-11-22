@@ -1,6 +1,0 @@
-xst -intstyle ise -ifn "E:/for_testing_submission/project/modm_async_count.xst" -ofn "E:/for_testing_submission/project/modm_async_count.syr" 
-ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc microprogram_cdp_test_VHDL/modm_async_count.ucf -p xc3s500e-ft256-4 modm_async_count.ngc modm_async_count.ngd  
-map -intstyle ise -p xc3s500e-ft256-4 -cm area -ir off -pr off -c 100 -o modm_async_count_map.ncd modm_async_count.ngd modm_async_count.pcf 
-par -w -intstyle ise -ol high -t 1 modm_async_count_map.ncd modm_async_count.ncd modm_async_count.pcf 
-trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml modm_async_count.twx modm_async_count.ncd -o modm_async_count.twr modm_async_count.pcf 
-bitgen -intstyle ise -f modm_async_count.ut modm_async_count.ncd 

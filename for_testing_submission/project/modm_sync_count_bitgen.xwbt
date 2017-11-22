@@ -1,8 +1,0 @@
-INTSTYLE=ise
-INFILE=E:\for_testing_submission\project\modm_sync_count.ncd
-OUTFILE=E:\for_testing_submission\project\modm_sync_count.bit
-FAMILY=Spartan3E
-PART=xc3s500e-4ft256
-WORKINGDIR=E:\for_testing_submission\project
-LICENSE=WebPack
-USER_INFO=211416421_0_0_119
