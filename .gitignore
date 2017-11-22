@@ -9,11 +9,11 @@
 !*.vhdl
 !*.docx
 !*.ucf
+!*.pdf
+!*.docs
 !*/
 !src
 !test
 !constraints
-!docs
 !project
-!pdf
-!docx
+
