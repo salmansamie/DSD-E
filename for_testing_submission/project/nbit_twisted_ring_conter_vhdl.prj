@@ -1,0 +1,5 @@
+vhdl work "E:\for_testing_submission\project\microprogram_cdp_test_VHDL\d_flipflop.vhd"
+vhdl work "E:\for_testing_submission\project\microprogram_cdp_test_VHDL\nbit_reg.vhd"
+vhdl work "E:\for_testing_submission\project\microprogram_cdp_test_VHDL\NOT.vhd"
+vhdl work "E:\for_testing_submission\project\microprogram_cdp_test_VHDL\nbit_shiftreg.vhd"
+vhdl work "E:\for_testing_submission\project\microprogram_cdp_test_VHDL\nbit_twisted_ring_counter.vhd"

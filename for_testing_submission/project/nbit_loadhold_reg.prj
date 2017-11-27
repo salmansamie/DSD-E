@@ -1,0 +1,8 @@
+vhdl work "microprogram_cdp_test_VHDL/OR.vhd"
+vhdl work "microprogram_cdp_test_VHDL/NOT.vhd"
+vhdl work "microprogram_cdp_test_VHDL/AND.vhd"
+vhdl work "../src/lab1/two_input_multiplexer.vhd"
+vhdl work "microprogram_cdp_test_VHDL/d_flipflop.vhd"
+vhdl work "microprogram_cdp_test_VHDL/nbit_two_input_mux.vhd"
+vhdl work "microprogram_cdp_test_VHDL/nbit_reg.vhd"
+vhdl work "microprogram_cdp_test_VHDL/nbit_loadhold_reg.vhd"

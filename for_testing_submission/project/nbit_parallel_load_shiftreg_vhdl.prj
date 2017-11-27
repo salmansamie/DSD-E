@@ -1,0 +1,8 @@
+vhdl work "E:\for_testing_submission\project\microprogram_cdp_test_VHDL\OR.vhd"
+vhdl work "E:\for_testing_submission\project\microprogram_cdp_test_VHDL\NOT.vhd"
+vhdl work "E:\for_testing_submission\project\microprogram_cdp_test_VHDL\AND.vhd"
+vhdl work "E:\for_testing_submission\src\lab1\two_input_multiplexer.vhd"
+vhdl work "E:\for_testing_submission\project\microprogram_cdp_test_VHDL\d_flipflop.vhd"
+vhdl work "E:\for_testing_submission\project\microprogram_cdp_test_VHDL\nbit_two_input_mux.vhd"
+vhdl work "E:\for_testing_submission\project\microprogram_cdp_test_VHDL\nbit_reg.vhd"
+vhdl work "E:\for_testing_submission\project\microprogram_cdp_test_VHDL\nbit_parallel_load_shiftreg.vhd"

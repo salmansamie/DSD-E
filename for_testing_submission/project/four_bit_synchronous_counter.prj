@@ -1,0 +1,4 @@
+vhdl work "microprogram_cdp_test_VHDL/d_flipflop.vhd"
+vhdl work "../src/lab4/next_state_logic.vhd"
+vhdl work "microprogram_cdp_test_VHDL/nbit_reg.vhd"
+vhdl work "../src/lab4/four_bit_synchronous_counter.vhd"
