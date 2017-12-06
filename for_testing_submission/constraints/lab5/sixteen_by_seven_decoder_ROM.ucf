@@ -1,0 +1,9 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "CA2" LOC = C13;
+NET "CA1" LOC = D12;
+NET "address[0]" LOC = J11;
+NET "address[1]" LOC = J12;
+NET "address[2]" LOC = H16;
+NET "address[3]" LOC = H13;

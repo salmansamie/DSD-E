@@ -1,0 +1,15 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "O_outputs[0]" LOC = C11;
+NET "O_outputs[1]" LOC = D11;
+NET "O_outputs[2]" LOC = B11;
+NET "O_outputs[3]" LOC = A12;
+NET "O_outputs[4]" LOC = A13;
+NET "O_outputs[5]" LOC = B13;
+NET "O_outputs[6]" LOC = A14;
+NET "O_outputs[7]" LOC = B14;
+NET "address[0]" LOC = J11;
+NET "address[1]" LOC = J12;
+NET "address[2]" LOC = H16;
+NET "OE[7]" LOC = B16;
