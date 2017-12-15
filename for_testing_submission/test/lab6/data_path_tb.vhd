@@ -1,29 +1,5 @@
 --------------------------------------------------------------------------------
--- Company:
--- Engineer:
---
--- Create Date:   22:26:39 12/02/2016
--- Design Name:
--- Module Name:   H:/Documents/Year 3/Digital Systems Design/Lab 6/Lab6/Data_Path_tb.vhd
--- Project Name:  Lab6
--- Target Device:
--- Tool versions:
--- Description:
---
--- VHDL Test Bench Created by ISE for module: Data_Path
---
--- Dependencies:
---
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
---
--- Notes:
--- This testbench has been automatically generated using types std_logic and
--- std_logic_vector for the ports of the unit under test.  Xilinx recommends
--- that these types always be used for the top-level I/O of a design in order
--- to guarantee that the testbench will bind correctly to the post-implementation
--- simulation model.
+
 --------------------------------------------------------------------------------
 LIBRARY ieee;
 USE ieee.std_logic_1164.ALL;

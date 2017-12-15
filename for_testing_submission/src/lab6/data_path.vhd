@@ -1,21 +1,5 @@
 ----------------------------------------------------------------------------------
--- Company:
--- Engineer:
---
--- Create Date:    20:37:14 12/02/2016
--- Design Name:
--- Module Name:    Data_Path - Behavioral
--- Project Name:
--- Target Devices:
--- Tool versions:
--- Description:
---
--- Dependencies:
---
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
---
+
 ----------------------------------------------------------------------------------
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
@@ -81,7 +65,7 @@ component Status
            f : out  STD_LOGIC);
 end component;
 
-component nbit_tristate_buffer is
+component nbit_tristate_buff is
 
 generic (n: positive := 4);
 
@@ -136,7 +120,7 @@ shift: four_bit_shifter port map(alu_to_shift, s(3 downto 1), Result_Bus);
 
 stat: status port map(Result_Bus, status_output);
 
-buff: nbit_tristate_buffer generic map (4) port map(Result_Bus, s(0), output);
+buff: nbit_tristate_buff generic map (4) port map(Result_Bus, s(0), output);
 
 
 
