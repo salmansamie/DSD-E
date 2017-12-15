@@ -1,0 +1,16 @@
+
+# PlanAhead Generated physical constraints
+
+NET "Data_In[0]" LOC = J11;
+NET "Data_In[1]" LOC = J12;
+NET "Data_In[2]" LOC = H16;
+NET "Data_In[3]" LOC = H13;
+NET "Data_Out[0]" LOC = C11;
+NET "Data_Out[1]" LOC = D11;
+NET "Data_Out[3]" LOC = A12;
+NET "Alt" LOC = B16;
+NET "clk" LOC = A10;
+NET "Done" LOC = B14;
+NET "reset" LOC = D12;
+NET "Start" LOC = C12;
+NET "Data_Out[2]" LOC = B11;
